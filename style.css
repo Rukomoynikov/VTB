@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+}
+
+.window-fix_small {
+  width: 320px;
+  opacity: 0.95;
+}
+
+.intro-header {
+  /*width: 184px;*/
+  padding-top: 52px;
+  padding-left: 32px;
+  /*font-family: FFMetaPro;*/
+  font-size: 60px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.07;
+  letter-spacing: 2.2px;
+  color: #000000;
+}
+
+.intro-header p {
+  /*font-family: FFMetaPro;*/
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #232323;
+}
+
+.intro-button {
+  width: 220px;
+  height: 55px;
+  border-radius: 6px;
+  background-color: #0a2896;
+}
+
+.intro-button a {
+  text-decoration: none;
+  padding: 12px 19px 12px 15px;
+  text-transform: uppercase;
+  /*font-family: FFMetaPro;*/
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
