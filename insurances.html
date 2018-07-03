@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>insurances</title>
+		<title>Insurances</title>
 		<meta charset="utf-8">
   		<link rel="stylesheet" href="style.css">
+  		<link rel="stylesheet" href="fonts/stylesheet-min.css"/>
 	</head>
 	<body>
-		<nav>
+		<nav class="main-nav main-nav__closed">
 			<div class="main-nav__header">
 				<button class="main-nav__toggle" type="button"></button>
-				<span>Легкая Жизнь</span>
+				<p>Легкая Жизнь</p>
 			</div>
 			<div class="main-nav__wrapper">
 				<ul class="main-nav__items">
-					<li class="main-nav__item" a href="advices.html">Советы</li>
-					<li class="main-nav__item" a href="purchases.html">Покупки</li>
-					<li class="main-nav__item" a href="services.html">Сервисы</li>
-					<li class="main-nav__item" a href="discounts.html">Скидки</li>
+					<li class="main-nav__item"><a href="advices.html">Советы</a></li>
+					<li class="main-nav__item"><a href="purchases.html">Покупки</a></li>
+					<li class="main-nav__item"><a href="services.html">Сервисы</a></li>
+					<li class="main-nav__item"><a href="sales.html">Скидки</a></li>
 					<li class="main-nav__item main-nav__item--active">Страховые продукты</li>
 				</ul>
 			</div>
 		</nav>
-		<section class="insurances__header">
-			<h2>Страховые продукты</h2>
-			<div class="insurances__insurance-first">
-				<img src="">
-				<h3>Страхование выезжающих за рубеж</h3>
-				<p>Страховой полис защитит от непредвиденных расходов на лечение в поездке. Мы организуем медицинскую помощь путешественникам любого возраста без каких-либо франшиз и оплаты из собственного кошелька.</p>
-				<a href="#" class="insurances__button">подробнее</a>
+		<section class="cards insurances__cards">
+			<div class="cards-header advices__header">
+				<h2>Страховые продукты</h2>
 			</div>
-			<div class="insurances__insurance-second">
-				<img src="">
-				<h3>Страхование от укуса клеща</h3>
-				<p>Страховой полис покрывает затраты на медицинские услуги в случае укуса клеща, включая лабораторные исследования клеща на инфекции.</p>
-				<a href="#" class="insurances__button">подробнее</a>
+			<div class="cards__wrapper">
+				<div class="card insurances__insurance">
+					<img src="img/insurance.jpg"
+							srcset="img/insurance@2x.jpg,
+							img/insurance@3x.jpg">
+					<h3>Страхование выезжающих за рубеж</h3>
+					<p>Страховой полис защитит от непредвиденных расходов на лечение в поездке. Мы организуем медицинскую помощь путешественникам любого возраста без каких-либо франшиз и оплаты из собственного кошелька.</p>
+					<a href="#" class="insurances__button intro-button">подробнее</a>
+				</div>
+				<div class="card insurances__insurance">
+					<img src="img/mite-control-bg.jpg"
+					     srcset="img/mite-control-bg@2x.jpg 2x,
+					             img/mite-control-bg@3x.jpg 3x">
+					<h3>Страхование от укуса клеща</h3>
+					<p>Страховой полис покрывает затраты на медицинские услуги в случае укуса клеща, включая лабораторные исследования клеща на инфекции.</p>
+					<a href="#" class="insurances__button intro-button">подробнее</a>
+				</div>
 			</div>
 		</section>
 	</body>

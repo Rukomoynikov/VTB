@@ -4,15 +4,21 @@
 		<title>Advices inner page 1</title>
 		<meta charset="utf-8">
   		<link rel="stylesheet" href="style.css">
+  		<link rel="stylesheet" href="fonts/stylesheet-min.css"/>
 	</head>
 	<body>
-		<header class="advices__inner-page--header">
-			<nav class="arrow--toggle"></nav>
-			<h2>Как быстро освежить интерьер</h2>
-			<p>Нестерпимо хочется перемен, а времени и денег на новый ремонт нет? Обновите обстановку быстро и без особых трат с помощью этих способов.</p>
+		<header class="inner-page__header advices__page-first--header">
+			<div class="inner-page__gradient"><h2>Как быстро освежить интерьер</h2>
+			<p>Нестерпимо хочется перемен, а времени и денег на новый ремонт нет? Обновите обстановку быстро и без особых трат с помощью этих способов.</p></div>
+			<img src="img/photo-1496180727794-817822-f-65950.jpg"
+     				srcset="img/photo-1496180727794-817822-f-65950@2x.jpg 2x,
+             				img/photo-1496180727794-817822-f-65950@3x.jpg 3x" class="inner-page__background">					
+			<nav class="inner-page__menu">
+				<a href="advices.html"><img src="img/arrow.svg" class="arrow__toggle"></a>
+			</nav>
 		</header>
-		<section class="advices__inner-page--list">
-			<ul>
+		<section class="inner-page advices__page-first">
+			<ul class="inner-page__list advices__page-first__list">
 				<li>
 					<h3>1. Сделайте перестановку</h3>
 					<p>Измените расположение мебели в гостиной, поставьте кровать или обеденный стол в новое место. Чтобы перестановка носила не только декоративный характер, продумайте зонирование – так удастся сделать пространство более функциональным.</p>
@@ -30,8 +36,10 @@
 					<p>Диванные подушки, гирлянды, органайзеры с симпатичным дизайном. Такие вещи добавляют в интерьер новые акценты.</p>
 				</li>
 			</ul>
-			<a href="#" class="button">Полезно, далее</a>
-			<p>Мне не нравится, следующий совет</p>
+			<div class="inner-page__footer advices__page-first--footer">
+				<a href="#" class="inner-page__button">Полезно, далее</a>
+				<p>Мне не нравится, следующий совет</p>
+			</div>
 		</section>
 	</body>
 </html>
