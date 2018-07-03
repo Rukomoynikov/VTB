@@ -288,6 +288,8 @@ a.intro-button {
 }
 
 .card {
+  position: relative;
+  z-index: 1;
   padding-bottom: 1px;
   border-radius: 6px;
   background-color: #ffffff;
@@ -389,6 +391,25 @@ a.intro-button {
   color: #000000;
 }
 
+.hidden {
+  display: none;
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 283px;
+  left: 0px;
+  bottom: 0px;
+  padding-bottom: 1px;
+  border-radius: 0 0 6px 6px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px 0 #e8ecf3;
+  z-index: 2;
+}
+
+.insurances__insurance:hover .hidden {
+  display: block;
+}
+
 .insurances__button {
  
   font-size: 14px;
@@ -435,6 +456,11 @@ a.intro-button {
 @media (max-width: 320px) {
   .inner-page__header {
     width: 320px;
+  }
+}
+@media (min-width: 600px) {
+  .inner-page__header {
+    width: 555px;
   }
 }
 
@@ -503,10 +529,21 @@ a.intro-button {
 
 .inner-page__list {
   margin: 0 auto;
-  width: 312px;
   border-radius: 6px;
   background-color: #ffffff;
 }
+
+@media (max-width: 320px) {
+  .inner-page__list {
+    width: 312px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .inner-page__list {
+    width: 760px;
+   }
+} 
 
 .inner-page__list li {
   list-style: none;
