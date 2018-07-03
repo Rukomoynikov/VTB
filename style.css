@@ -143,18 +143,19 @@ a.intro-button {
 .main-nav__wrapper {
   /*width: 1200px;*/
   
-
+overflow: auto;
+    white-space: nowrap;
   /*width: 320px;*/
   height: 47px;
   background-color: #ffffff;
 }
 
-@media (max-width: 320px) {
+/*@media (max-width: 320px) {
   .main-nav__wrapper {
     width: 320px;
     display: block;
   
-  /*white-space: nowrap;*/
+  
   }
 }
 
@@ -165,7 +166,7 @@ a.intro-button {
     display: flex;
   justify-content: center;
   }
-} 
+} */
 
 .main-nav__items {
   margin: 0;
@@ -181,7 +182,7 @@ a.intro-button {
 
   display: inline-block;
   padding: 12px 0px;
-  /*text-align: center;*/
+  text-align: center;
 }
 
 .main-nav__items a {
@@ -352,6 +353,7 @@ a.intro-button {
 
 .card p {
  /* width: 256px;*/
+  height: 125px;
   margin: 0px;
   padding: 2px 16px 16px;
   font-size: 16px;
