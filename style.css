@@ -341,12 +341,6 @@ overflow: auto;
   color: #111111;
 }
 
-@media (max-width: 320px) {
-  .card p {
-    width: 256px;
-  }
-}
-
 .card .purchase-description {
   opacity: 0.6;
   font-size: 12px;
@@ -421,24 +415,9 @@ overflow: auto;
   }
 }
 
-.inner-page ul {
-  padding: 0px;
-}
-
 .inner-page__header {
   position: relative;
-  min-height: 360px;
-}
-
-@media (max-width: 320px) {
-  .inner-page__header {
-    width: 320px;
-  }
-}
-@media (min-width: 600px) {
-  .inner-page__header {
-    width: 555px;
-  }
+  height: 540px;
 }
 
 .inner-page__menu {
@@ -459,11 +438,9 @@ overflow: auto;
 }
 
 .inner-page__gradient {
-  width: 320px;
-  min-height: 360px;
+  height: 100%;
   position: relative;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
-
   z-index: 2;
 }
 
@@ -500,8 +477,13 @@ overflow: auto;
   top: 0px;
   margin: 0;
   padding: 0;
-
   z-index: 1;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .inner-page__list {
@@ -510,36 +492,10 @@ overflow: auto;
   background-color: #ffffff;
 }
 
-@media (max-width: 320px) {
-  .inner-page__list {
-    width: 312px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .inner-page__list {
-    width: 760px;
-   }
-} 
-
 .inner-page__list li {
   list-style: none;
   margin: 0px;
   padding: 25px 14px 0px 12px;
-}
-
-.inner-page__list h3 {
-  margin: 0px;
-  padding: 0px;
-  opacity: 0.8;
-  font-family: FFMetaPro-Medium;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  color: #232323;
 }
 
 .inner-page__list p {
@@ -603,4 +559,47 @@ overflow: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.article {
+  padding: 24px 16px;
+  max-width: 760px;
+  background-color: white;
+  margin: auto;
+  border-radius: 6px;
+
+}
+
+.articleList {
+  list-style-type: none;
+  padding: 0; 
+  margin: 0;
+}
+
+.article .articleList:first-child h3 {
+  margin-top: 0;
+}
+
+.articleTitle {
+  position: absolute;
+  bottom: 58px; 
+  z-index: 500;
+  max-width: 555px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.articleList__title {
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.8;
+  font-family: 'FF Meta Pro';
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #232323;
 }
