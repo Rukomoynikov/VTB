@@ -4,18 +4,6 @@ body {
   font-weight: 300;
   font-style: normal;
 }
-
-@media (max-width: 320px) {
-  body {
-    width: 320px;
-  }
-}
-
-@media (min-width: 1200px) {
-  body {
-    width: 1200px;
-  }
-}
  
 .window-fix_small {
   width: 320px;
@@ -76,6 +64,10 @@ a.intro-button {
   height: 46px;
 }
 
+.main-nav {
+  background-color: #00aaff;
+}
+
 .main-nav__header {
   /*width: 1200px;*/
   position: relative;
@@ -84,19 +76,6 @@ a.intro-button {
 
   /*width: 320px;*/
   height: 56px;
-  background-color: #00aaff;
-}
-
-@media (max-width: 320px) {
-  .main-nav__header {
-    width: 320px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .main-nav__header {
-    width: 1200px;
-  }
 }
 
 .main-nav__toggle {
@@ -618,4 +597,14 @@ overflow: auto;
 }
 
 
+/* WRAPPERS */
+.wrapper--navigation {
+  max-width: 1170px;
+  margin: auto;
+}
 
+.secondNavigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

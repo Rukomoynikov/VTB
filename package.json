@@ -1,0 +1,24 @@
+{
+  "name": "VTB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rukomoynikov/VTB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rukomoynikov/VTB/issues"
+  },
+  "homepage": "https://github.com/Rukomoynikov/VTB#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
