@@ -1,3 +1,30 @@
+@media (max-width: 320px) {
+  .card img {
+    width: 288px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card img {
+    width: 360px;
+    height: 375px;
+  }
+} 
+
+@media (max-width: 320px) {
+  .cards {
+    width: 288px;
+    padding: 0px 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards {
+    padding: 0px 30px;
+  }
+} 
+
 body {
   margin: 0 auto;
   font-family: 'FF Meta Pro';
@@ -189,25 +216,9 @@ overflow: auto;
 }
 
 .cards {
-  
   background-color: #f1f2f4;
   box-shadow: inset 0px 3px 3px 0px #dcdee0;
 }
-
-@media (max-width: 320px) {
-  .cards {
-    width: 288px;
-    padding: 0px 16px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .cards {
-    /*width: 1200px;*/
-    padding: 0px 30px;
-  margin-bottom: 30px;
-  }
-} 
 
 .cards-header {
   
@@ -301,20 +312,6 @@ overflow: auto;
   border-radius: 6px 6px 0px 0px;
 }
 
-@media (max-width: 320px) {
-  .card img {
-    width: 288px;
-    height: 300px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .card img {
-    width: 360px;
-    height: 375px;
-  }
-} 
-
 .card h3 {
   display: block;
   /*width: 256px;*/
@@ -377,7 +374,6 @@ overflow: auto;
   content: "";
   position: absolute;
   width: 360px;
-  height: 283px;
   left: 0px;
   bottom: 0px;
   padding-bottom: 1px;
@@ -387,7 +383,7 @@ overflow: auto;
   z-index: 2;
 }
 
-.insurances__insurance:hover .hidden {
+.card:hover .hidden {
   display: block;
 }
 
