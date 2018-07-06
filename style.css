@@ -392,7 +392,6 @@ overflow: auto;
 }
 
 .inner-page {
-
   background-color: #000000;
 }
 
@@ -446,6 +445,18 @@ overflow: auto;
   background-repeat: no-repeat;
 }
 
+@media (max-width: 320px) {
+  .inner-page__background {
+    background-image: url('img/photo-1496180727794-817822-f-65950.jpg');
+  }
+}
+
+@media (min-width: 1200px) {
+  .inner-page__background {
+    background-image: url('img/advice1-inner@3x.jpg');
+  }
+}
+
 .inner-page__list {
   margin: 0 auto;
   border-radius: 6px;
@@ -469,15 +480,26 @@ overflow: auto;
   color: #232323;
 }
 
-.inner-page__footer {
-  width: 320px;
-}
+@media (max-width: 320px) {
+  .inner-page__footer {
+    width: 320px;
+    }
+  }
+
+@media (min-width: 1200px) {
+  .inner-page__footer {
+    width: 1200px;
+    margin: 0 auto;
+  }
+} 
 
 .inner-page__button {
   display: block;
   padding-top: 15px;
   padding-bottom: 12px;
   margin: 0 auto;
+
+  margin-top: 23px;
   width: 288px;
   border-radius: 8px;
   background-color: #e62632;
