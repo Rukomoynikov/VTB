@@ -35,6 +35,10 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0 auto;
   font-family: 'FF Meta Pro';
@@ -408,7 +412,7 @@ overflow: auto;
 
 .inner-page__menu {
   position: absolute;
-  z-index: 2;
+  z-index: 10;
   top: 0px;
   left: 0px;
   width: 56px;
@@ -441,7 +445,7 @@ overflow: auto;
   right: 0;
   height: 100%;
   background-size: cover;
-  background-position: center center;
+  background-position: bottom center;
   background-repeat: no-repeat;
 }
 
@@ -510,7 +514,7 @@ overflow: auto;
   width: 288px;
   border-radius: 8px;
   background-color: #e62632;
-  font-family: FFMetaPro-Black;
+  font-family: 'FF Meta Pro';
   font-size: 16px;
   font-weight: 900;
   font-style: normal;
