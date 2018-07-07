@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile</title>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="fonts/stylesheet.css"/>
+  </head>
+  <body>
+    <div class="profile">
+      <nav class="main-nav main-nav__closed">
+        <div class="wrapper--navigation">
+          <div class="main-nav__header">
+              <button class="main-nav__toggle" type="button"></button>
+              <p>Профиль</p>
+            </div>
+          </div>
+        </nav>
+      <section class="profile__section">
+        <div class="profile__section--wrapper">
+          <h2 class="profile profile__title">Основная информация</h2>
+        <form class="login-form" action="#" method="post">
+          <label class="user-info">Имя<input class="user-icon" type="text" name="login" placeholder="Константин"></label>
+          <label class="user-info">Фамилия<input class="user-icon" type="text" name="login" placeholder="Константинопольский"></label>
+          <label class="user-info">E-mail<input class="user-icon" type="email" name="email" placeholder="me@alexandersilin.ru"></label>
+          <label class="user-info">Пароль<input type="password" name="password" class="user-icon" placeholder="Изменить"></label>
+        </form>
+        <h2 class="profile profile__frequency">Периодичность</h2>
+        <ul class="profile__frequency--block">
+          <li class="profile__frequency--day active">Пон.</li>
+          <li class="profile__frequency--day active">Вт.</li>
+          <li class="profile__frequency--day active">Ср.</li>
+          <li class="profile__frequency--day active">Чт.</li>
+          <li class="profile__frequency--day active">Пт.</li>
+          <li class="profile__frequency--day">Сб.</li>
+          <li class="profile__frequency--day">Вс.</li>
+        </ul>
+      </div>
+      <div class="inner-page__footer advices__page-first--footer">
+          <a href="#" class="hidden__link profile__link">Сохранить изменения</a>
+          <p>Деактивировать аккаунт</p>
+        </div>
+      </section>
+  </body>
+</html>

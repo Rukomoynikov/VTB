@@ -721,3 +721,80 @@ overflow: auto;
   letter-spacing: normal;
   color: #232323;
 }
+
+
+/*профиль*/
+
+.profile__section--wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.profile__frequency,
+.profile__title {
+  padding: 0;
+  background-color: #f1f2f4;
+  color: #232323;
+  font-family: FF Meta Pro Med;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.39;
+  letter-spacing: -0.2px;
+}
+
+.profile__frequency--block {
+  width: 320px;
+  padding-left: 2px;
+}
+
+.profile__frequency--day {
+  margin: 8px;
+  padding: 16px 0px;
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+ 
+  width: 56px;
+  
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.1px;
+  
+  color: #232323;
+  border-radius: 6px;
+  border: solid 2px rgba(192, 192, 192, 0.3);
+}
+
+.profile__frequency--day.active {
+  border: solid 2px #02ad58;
+}
+
+.user-info {
+  display: block;
+  min-height: 52px;
+  font-family: FF Meta Pro Med;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #111111;
+  background-color: #ffffff;
+  border-bottom: solid 1px #f1f2f4;
+}
+
+.user-icon {
+  text-align: right;
+  border-width: 0px;
+}
+
+.profile__link {
+  width: 288px;
+  margin: 0 auto;
+}
