@@ -723,15 +723,22 @@ overflow: auto;
 
 /*профиль*/
 
+.profile {
+  background-color: #f1f2f4;
+}
+
 .profile__section--wrapper {
   width: 320px;
   margin: 0 auto;
 }
 
+.profile h2 {
+  padding-left: 10px
+}
+
 .profile__frequency,
 .profile__title {
   padding: 0;
-  background-color: #f1f2f4;
   color: #232323;
   font-family: FF Meta Pro Med;
   font-size: 18px;
@@ -744,37 +751,61 @@ overflow: auto;
 
 .profile__frequency--block {
   width: 320px;
-  padding-left: 2px;
+  padding-left: 4px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #ffffff;
+  margin-top: 0px;
 }
 
-.profile__frequency--day {
-  margin: 8px;
-  padding: 16px 0px;
+.profile__frequency--block li {
   list-style-type: none;
-  text-align: center;
   display: inline-block;
- 
+  margin: 8px;
+}
+
+.profile__frequency--block input[type=checkbox] {
+  display: none;
+}
+
+.profile__frequency--block label {
+  display: block;
+  text-align: center;
   width: 56px;
-  
+  padding: 16px 0px;
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: -0.1px;
-  
   color: #232323;
   border-radius: 6px;
   border: solid 2px rgba(192, 192, 192, 0.3);
 }
 
-.profile__frequency--day.active {
+.profile__frequency--block input[type=checkbox]:checked + label{
   border: solid 2px #02ad58;
 }
 
-.user-info {
-  display: block;
+.login-form {
+  width: 320px;
+  background-color: #ffffff;
+  }
+
+.user {
+  position: relative;
+  width: 90%;
   min-height: 52px;
+  margin: 0 auto;
+}
+
+.user-info {
+  
+  width: 49%;
+  text-align: left;
+  padding-top: 7%;
+  display: inline-block;
   font-family: FF Meta Pro Med;
   font-size: 14px;
   font-weight: 500;
@@ -783,16 +814,61 @@ overflow: auto;
   line-height: 1.43;
   letter-spacing: normal;
   color: #111111;
-  background-color: #ffffff;
-  border-bottom: solid 1px #f1f2f4;
+  /*background-color: #ffffff;*/
+}
+
+.user::before {
+  content: "";
+  position: absolute;
+  top: 51px;
+  left: -17px;
+  width: 322px;
+  height: 2px;
+  background-color: #f1f2f4;
 }
 
 .user-icon {
+  width: 49%;
   text-align: right;
+  display: inline-block;
   border-width: 0px;
 }
 
+.icon-password {
+  text-align: left;
+}
+
+.password__link {
+  text-decoration: none;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: right;
+  color: #02ad58;
+}
+
 .profile__link {
-  width: 288px;
-  margin: 0 auto;
+  width: 266px;
+  margin: 25px auto;
+}
+
+.profile__link--deactivation {
+  text-decoration: none;
+}
+
+.profile__link--deactivation p {
+  padding-top: 15px;
+  opacity: 0.6;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e62632;
 }
