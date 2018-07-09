@@ -21,17 +21,12 @@
   }
 
 	.card {
-		/* display: inline-flex; */
 		width: 360px;
 		min-height: 475px;
 		flex-wrap: nowrap;
 		margin: 0px 0px 30px;
 	}
 }
-
-/** с ним не работает!!!!!!!!!!!!!!!! {
-  box-sizing: border-box;
-}*/
 
 body {
   margin: 0 auto;
@@ -72,12 +67,10 @@ body {
 }
 
 .main-nav__header {
-  /*width: 1200px;*/
   position: relative;
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  /*width: 320px;*/
   height: 56px;
 }
 
@@ -144,7 +137,7 @@ body {
   /*width: 1200px;*/
 
 overflow: auto;
-    white-space: nowrap;
+  white-space: nowrap;
   /*width: 320px;*/
   height: 47px;
   background-color: #ffffff;
@@ -157,11 +150,7 @@ overflow: auto;
   padding-left: 16px;
 }
 
-/*не работает */
-
 .main-nav__items li {
-  /*display: inline-flex;*/
-
   display: inline-block;
   padding: 12px 0px;
   text-align: center;
@@ -196,36 +185,6 @@ overflow: auto;
   background-color: #f1f2f4;
   box-shadow: inset 0px 3px 3px 0px #dcdee0;
 }
-
-/* WRAPPERS */
-
-/*.wrapper--navigation {
-  max-width: 1170px;
-  margin: auto;
-}
-*/
-
-
-/*@media (max-width: 767px) {
-  .cards {
-    width: 320px;
-  }
-}
-
-@media (min-width: 768px) {
-  .cards {
-    width: 700px;
-   
-  }
-}
-
-@media (min-width: 1200px) {
-  .cards {
-    width: 1140px;
-    display: flex;
-    justify-content: space-between;
-  }
-}*/
 
 .secondNavigation {
   display: flex;
@@ -322,7 +281,6 @@ overflow: auto;
 .card {
   position: relative;
   z-index: 1;
-  /*margin-bottom: 16px;*/
   padding-bottom: 1px;
   border-radius: 6px;
   background-color: #ffffff;
@@ -332,9 +290,8 @@ overflow: auto;
 
 @media (max-width: 767px) {
   .card {
-    /*margin-bottom: 16px;*/
     margin: 0px 0px 16px 0px;
-     width: 288px;
+    width: 288px;
      
   }
 }
@@ -346,6 +303,7 @@ overflow: auto;
      height: 350px;  /*?*/
   }
 }
+
 @media (min-width: 1200px) {
   .card {
      margin: 0px 0px 32px 0px;
@@ -355,11 +313,9 @@ overflow: auto;
 }
 
 .card img {
-  /*display: block;*/
   margin: 0;
   padding: 0;
   border-radius: 6px 6px 0px 0px;
-  /*height: 300px;*/
 }
 
 .card h3 {
@@ -447,11 +403,6 @@ overflow: auto;
   color: #ffffff;
   margin: 0 16px 16px 16px;
 }
-
-/* .card:hover .hidden {
-    display: none;
-    height: initial;
-  } */
 
 @media (min-width: 768px) {
   .card:hover .hidden {
@@ -660,9 +611,7 @@ overflow: auto;
 
 .articleTitle {
   position: absolute;
-  /*top: 175px;*/
   z-index: 500;
-  
   left: 50%;
   transform: translateX(-50%);
 }
@@ -801,7 +750,6 @@ overflow: auto;
 }
 
 .user-info {
-  
   width: 49%;
   text-align: left;
   padding-top: 7%;
@@ -814,7 +762,6 @@ overflow: auto;
   line-height: 1.43;
   letter-spacing: normal;
   color: #111111;
-  /*background-color: #ffffff;*/
 }
 
 .user::before {
@@ -871,4 +818,82 @@ overflow: auto;
   letter-spacing: normal;
   text-align: center;
   color: #e62632;
+}
+
+/*боковое меню*/
+
+.side-menu {
+  width: 240px;
+  padding-top: 96px;
+  padding-left: 16px;
+  background-color: #02283b;
+}
+
+.side-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.side-menu li {
+  list-style-type: none;
+  margin: 0;
+}
+
+.side-menu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.list-big__item {
+  line-height: 22px;
+  font-family: FF Meta Pro Med;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  padding-top: 30px;
+}
+
+.side-menu--mail {
+  padding: 50px 0px 40px
+  font-family: FF Meta Pro Med;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.list-small__item {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  padding-top: 15px;
+}
+
+.side-menu .log-out {
+  position: relative;
+  margin: 55px 0 0 0;
+  padding-bottom: 25px;
+  line-height: 18px;
+  opacity: 0.6;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.side-menu .log-out::before {
+  position: absolute;
+  content: "";
+  top: 3px;
+  left: 50px;
+  width: 20px;
+  height: 20px;
+  background: url('img/sign-out.svg') no-repeat;
 }
