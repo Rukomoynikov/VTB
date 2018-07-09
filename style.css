@@ -857,7 +857,7 @@ overflow: auto;
 }
 
 .side-menu--mail {
-  padding: 50px 0px 40px;
+  padding: 60px 0px 40px;
   font-family: FF Meta Pro Med;
   font-size: 16px;
   font-weight: 500;
@@ -875,6 +875,8 @@ overflow: auto;
 
 .side-menu .log-out {
   position: relative;
+  display: block;
+  text-decoration: none;
   margin: 55px 0 0 0;
   padding-bottom: 25px;
   line-height: 18px;
