@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile</title>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="fonts/stylesheet.css"/>
+  </head>
+  <body>
+    <div class="profile">
+      <nav class="main-nav main-nav__closed">
+        <div class="wrapper--navigation">
+          <div class="main-nav__header">
+              <button class="main-nav__toggle" type="button"></button>
+              <p>Профиль</p>
+            </div>
+          </div>
+        </nav>
+      <section class="profile__section">
+        <div class="profile__section--wrapper">
+          <h2 class="profile profile__title">Основная информация</h2>
+        <form class="login-form" action="#" method="post">
+          <div class="user">
+            <label for="login" class="user-info">Имя</label>
+            <input class="user-icon" type="text" name="login-name" placeholder="Константин">
+          </div>
+           <div class="user">
+            <label for="login-surname" class="user-info">Фамилия</label>
+            <input class="user-icon" type="text" name="login-surname" placeholder="Константинопольский">
+          </div>
+          <div class="user">
+            <label for="email" class="user-info">E-mail</label>
+            <input class="user-icon" type="email" name="email" placeholder="me@alexandersilin.ru">
+          </div>
+          <div class="user">
+            <label for="password" class="user-info">Пароль</label>
+            <div class="user-icon icon-password">
+              <input type="password" name="password" class="user-icon icon-password" placeholder="*****">
+              <a href="#" class="password__link">Изменить</a>
+            </div>
+          </div>
+        </form>
+        <h2 class="profile profile__frequency">Периодичность</h2>
+        <ul class="profile__frequency--block">
+          <li>
+            <input type="checkbox" name="profile__frequency--day" id="monday" value="monday" checked>
+            <label for="monday">Пон.</label>
+          </li>
+          <li>
+            <input type="checkbox" name="profile__frequency--day" id="tuesday" value="tuesday" checked>
+            <label for="tuesday">Вт.</label>
+          </li>
+          <li>
+            <input type="checkbox" name="profile__frequency--day" id="wednesday" value="wednesday" checked>
+            <label for="wednesday">Ср.</label>
+          </li>
+          <li>
+            <input type="checkbox" name="profile__frequency--day" id="thursday" value="thursday" checked>
+            <label for="thursday">Чт.</label>
+          </li>
+           <li>
+            <input type="checkbox" name="profile__frequency--day" id="friday" value="friday" checked>
+            <label for="friday">Пт.</label>
+          </li>
+          <li>
+            <input type="checkbox" name="profile__frequency--day" id="saturday" value="saturday">
+            <label for="saturday">Сб.</label>
+          </li>
+          <li>
+            <input type="checkbox" name="profile__frequency--day" id="sunday" value="sunday">
+            <label for="sunday">Вс.</label>
+          </li>
+        </ul>
+      </div>
+      <div class="inner-page__footer">
+          <a href="#" class="hidden__link profile__link">Сохранить изменения</a>
+          <a href="#" class="profile__link--deactivation"><p>Деактивировать аккаунт</p></a>
+        </div>
+      </section>
+  </body>
+</html>
