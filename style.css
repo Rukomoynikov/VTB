@@ -263,7 +263,6 @@ overflow: auto;
 }
 
 .cards-header p {
-  
   margin: 0 auto;
   padding-top: 16px;
   display: block;
@@ -969,6 +968,29 @@ overflow: auto;
   border: solid 2px #02ad58;
 }
 
+.appartmentSelect {
+  margin: auto;
+}
 
+.radioAsButton__realInput {
+  visibility: hidden;
+  z-index: 1;
+}
 
+.radioAsButton__asLooking {
+  position: relative;
+  z-index: 100;
+  padding: 16px;
+  font-size: 14px;
+  color: #232323;
+  max-width: 288px;
+  border-radius: 6px;
+  border: solid 2px rgba(192, 192, 192, 0.3);
+}
 
+.radioAsButton__realInput:checked + .radioAsButton__asLooking {
+  border-radius: 6px;
+  background-color: #0a2896;
+  border: solid 2px rgba(192, 192, 192, 0.3);
+  color: white;
+}

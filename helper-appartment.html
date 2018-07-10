@@ -4,7 +4,8 @@
 		<title>Helper Appartment</title>
 		<meta charset="utf-8">
   		<link rel="stylesheet" href="style.css">
-  		<link rel="stylesheet" href="fonts/stylesheet.css"/>
+      <link rel="stylesheet" href="fonts/stylesheet.css"/>
+      <meta name="viewport" content="width=device-width">
 	</head>
 	<body>
     <nav class="main-nav main-nav__closed">
@@ -22,9 +23,26 @@
           <p>Чтобы сервис подсказывал только нужную вам информацию нам нужно знать о вас чуть больше.</p>
           <p>Какую квартиру вы приобрели?</p>
         </div>
-        <div class="helper__switchers hidden__link">
-          <label><input type="radio" name="radio-appartment" class="hidden__link helper__switchers" checked>Квартиру в новостройке</label>
-          <label><input type="radio" name="radio-appartment" class="hidden__link helper__switchers">Квартиру на вторичном рынке</label>
+        <div class="appartmentSelect">
+          <label class="radioAsButton">
+            <input 
+              type="radio" 
+              name="radio-appartment" 
+              class="radioAsButton__realInput" 
+              checked>
+              <div class="radioAsButton__asLooking">
+                  Квартиру в новостройке
+              </div>
+          </label>
+          <label class="radioAsButton">
+            <input 
+              type="radio" 
+              name="radio-appartment" 
+              class="radioAsButton__realInput">
+              <div class="radioAsButton__asLooking">
+                Квартиру на вторичном рынке
+              </div>
+          </label>
         </div>
       </div>
     </section>
