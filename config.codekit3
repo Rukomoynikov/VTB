@@ -23,6 +23,13 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/advices.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/advices.html",
+		"oF": 0
+		},
 	"\/article.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -369,7 +376,7 @@
 		"oAP": "\/image_originals\/01-intro-320.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -380,7 +387,7 @@
 		"oAP": "\/image_originals\/03-Advices-feed-1200.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -391,7 +398,7 @@
 		"oAP": "\/image_originals\/03-Advices-feed-320.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -402,7 +409,7 @@
 		"oAP": "\/image_originals\/03-Advices-inner page-1200.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -413,7 +420,7 @@
 		"oAP": "\/image_originals\/03-Advices-inner page-320.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -424,7 +431,7 @@
 		"oAP": "\/image_originals\/04-Things-feed-1200.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -435,7 +442,7 @@
 		"oAP": "\/image_originals\/04-Things-feed-320.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -446,7 +453,7 @@
 		"oAP": "\/image_originals\/05-Services-feed-1200.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -457,7 +464,7 @@
 		"oAP": "\/image_originals\/05-Services-feed-320.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -468,7 +475,7 @@
 		"oAP": "\/image_originals\/06-Sales-feed-1200.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -479,7 +486,7 @@
 		"oAP": "\/image_originals\/06-Sales-feed-320.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -490,7 +497,7 @@
 		"oAP": "\/image_originals\/07-Insurance-feed-1200.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -501,7 +508,7 @@
 		"oAP": "\/image_originals\/07-Insurance-feed-320.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -512,7 +519,7 @@
 		"oAP": "\/image_originals\/1-intro.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -524,7 +531,7 @@
 		"oAP": "\/img-big\/advice1-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/advice1-big@2x.jpg": {
@@ -535,7 +542,7 @@
 		"oAP": "\/img-big\/advice1-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/advice1-big@3x.jpg": {
@@ -546,7 +553,7 @@
 		"oAP": "\/img-big\/advice1-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/advice2-big.jpg": {
@@ -557,7 +564,7 @@
 		"oAP": "\/img-big\/advice2-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/advice2-big@2x.jpg": {
@@ -568,7 +575,7 @@
 		"oAP": "\/img-big\/advice2-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/advice2-big@3x.jpg": {
@@ -579,7 +586,7 @@
 		"oAP": "\/img-big\/advice2-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/advice3-big.jpg": {
@@ -590,7 +597,7 @@
 		"oAP": "\/img-big\/advice3-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/advice3-big@2x.jpg": {
@@ -601,7 +608,7 @@
 		"oAP": "\/img-big\/advice3-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/advice3-big@3x.jpg": {
@@ -612,7 +619,7 @@
 		"oAP": "\/img-big\/advice3-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/insurance1-big.jpg": {
@@ -623,7 +630,7 @@
 		"oAP": "\/img-big\/insurance1-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/insurance1-big@2x.jpg": {
@@ -634,7 +641,7 @@
 		"oAP": "\/img-big\/insurance1-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/insurance1-big@3x.jpg": {
@@ -645,7 +652,7 @@
 		"oAP": "\/img-big\/insurance1-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/insurance2-big.jpg": {
@@ -656,7 +663,7 @@
 		"oAP": "\/img-big\/insurance2-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/insurance2-big@2x.jpg": {
@@ -667,7 +674,7 @@
 		"oAP": "\/img-big\/insurance2-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/insurance2-big@3x.jpg": {
@@ -678,7 +685,7 @@
 		"oAP": "\/img-big\/insurance2-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/insurance3-big.jpg": {
@@ -689,7 +696,7 @@
 		"oAP": "\/img-big\/insurance3-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/insurance3-big@2x.jpg": {
@@ -700,7 +707,7 @@
 		"oAP": "\/img-big\/insurance3-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/insurance3-big@3x.jpg": {
@@ -711,7 +718,7 @@
 		"oAP": "\/img-big\/insurance3-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/purchase1-big.jpg": {
@@ -722,7 +729,7 @@
 		"oAP": "\/img-big\/purchase1-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/purchase1-big@2x.jpg": {
@@ -733,7 +740,7 @@
 		"oAP": "\/img-big\/purchase1-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/purchase1-big@3x.jpg": {
@@ -744,7 +751,7 @@
 		"oAP": "\/img-big\/purchase1-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/purchase2-big.jpg": {
@@ -755,7 +762,7 @@
 		"oAP": "\/img-big\/purchase2-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/purchase2-big@2x.jpg": {
@@ -766,7 +773,7 @@
 		"oAP": "\/img-big\/purchase2-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/purchase2-big@3x.jpg": {
@@ -777,7 +784,7 @@
 		"oAP": "\/img-big\/purchase2-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/purchase3-big.jpg": {
@@ -788,7 +795,7 @@
 		"oAP": "\/img-big\/purchase3-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/purchase3-big@2x.jpg": {
@@ -799,7 +806,7 @@
 		"oAP": "\/img-big\/purchase3-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/purchase3-big@3x.jpg": {
@@ -810,7 +817,7 @@
 		"oAP": "\/img-big\/purchase3-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/sale1-big.jpg": {
@@ -821,7 +828,7 @@
 		"oAP": "\/img-big\/sale1-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/sale1-big@2x.jpg": {
@@ -832,7 +839,7 @@
 		"oAP": "\/img-big\/sale1-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/sale1-big@3x.jpg": {
@@ -843,7 +850,7 @@
 		"oAP": "\/img-big\/sale1-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/sale2-big.jpg": {
@@ -854,7 +861,7 @@
 		"oAP": "\/img-big\/sale2-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/sale2-big@2x.jpg": {
@@ -865,7 +872,7 @@
 		"oAP": "\/img-big\/sale2-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/sale2-big@3x.jpg": {
@@ -876,7 +883,7 @@
 		"oAP": "\/img-big\/sale2-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/sale3-big.jpg": {
@@ -887,7 +894,7 @@
 		"oAP": "\/img-big\/sale3-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/sale3-big@2x.jpg": {
@@ -898,7 +905,7 @@
 		"oAP": "\/img-big\/sale3-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/sale3-big@3x.jpg": {
@@ -909,7 +916,7 @@
 		"oAP": "\/img-big\/sale3-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/service1-big.jpg": {
@@ -920,7 +927,7 @@
 		"oAP": "\/img-big\/service1-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/service1-big@2x.jpg": {
@@ -931,7 +938,7 @@
 		"oAP": "\/img-big\/service1-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/service1-big@3x.jpg": {
@@ -942,7 +949,7 @@
 		"oAP": "\/img-big\/service1-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/service2-big.jpg": {
@@ -953,7 +960,7 @@
 		"oAP": "\/img-big\/service2-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/service2-big@2x.jpg": {
@@ -964,7 +971,7 @@
 		"oAP": "\/img-big\/service2-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/service2-big@3x.jpg": {
@@ -975,7 +982,7 @@
 		"oAP": "\/img-big\/service2-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/service3-big.jpg": {
@@ -986,7 +993,7 @@
 		"oAP": "\/img-big\/service3-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/service3-big@2x.jpg": {
@@ -997,7 +1004,7 @@
 		"oAP": "\/img-big\/service3-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img-big\/service3-big@3x.jpg": {
@@ -1008,7 +1015,7 @@
 		"oAP": "\/img-big\/service3-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/71-zn-x-xo-ld-cl-sl-1500.jpg": {
@@ -1019,7 +1026,7 @@
 		"oAP": "\/img\/71-zn-x-xo-ld-cl-sl-1500.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/71-zn-x-xo-ld-cl-sl-1500@2x.jpg": {
@@ -1030,7 +1037,7 @@
 		"oAP": "\/img\/71-zn-x-xo-ld-cl-sl-1500@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/71-zn-x-xo-ld-cl-sl-1500@3x.jpg": {
@@ -1041,7 +1048,7 @@
 		"oAP": "\/img\/71-zn-x-xo-ld-cl-sl-1500@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/advice1-inner.jpg": {
@@ -1052,7 +1059,7 @@
 		"oAP": "\/img\/advice1-inner.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/advice1-inner@2x.jpg": {
@@ -1063,7 +1070,7 @@
 		"oAP": "\/img\/advice1-inner@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/advice1-inner@3x.jpg": {
@@ -1074,7 +1081,7 @@
 		"oAP": "\/img\/advice1-inner@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/arrow.svg": {
@@ -1095,7 +1102,7 @@
 		"oAP": "\/img\/bitmap.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/bitmap@2x.jpg": {
@@ -1106,7 +1113,7 @@
 		"oAP": "\/img\/bitmap@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/bitmap@3x.jpg": {
@@ -1117,7 +1124,7 @@
 		"oAP": "\/img\/bitmap@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/group-2.png": {
@@ -1127,7 +1134,7 @@
 		"oAP": "\/img\/group-2.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1138,7 +1145,7 @@
 		"oAP": "\/img\/group-2@2x.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1149,7 +1156,7 @@
 		"oAP": "\/img\/group-2@3x.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1161,7 +1168,7 @@
 		"oAP": "\/img\/group.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/group@2x.jpg": {
@@ -1172,7 +1179,7 @@
 		"oAP": "\/img\/group@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/group@3x.jpg": {
@@ -1183,7 +1190,7 @@
 		"oAP": "\/img\/group@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image-purchase.jpg": {
@@ -1194,7 +1201,7 @@
 		"oAP": "\/img\/image-purchase.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image-purchase3.jpg": {
@@ -1205,7 +1212,7 @@
 		"oAP": "\/img\/image-purchase3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image-purchase3@2x.jpg": {
@@ -1216,7 +1223,7 @@
 		"oAP": "\/img\/image-purchase3@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image-purchase3@3x.jpg": {
@@ -1227,7 +1234,7 @@
 		"oAP": "\/img\/image-purchase3@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image-purchase@2x.jpg": {
@@ -1238,7 +1245,7 @@
 		"oAP": "\/img\/image-purchase@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image-purchase@3x.jpg": {
@@ -1249,7 +1256,7 @@
 		"oAP": "\/img\/image-purchase@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image-service.jpg": {
@@ -1260,7 +1267,7 @@
 		"oAP": "\/img\/image-service.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image-service3.jpg": {
@@ -1271,7 +1278,7 @@
 		"oAP": "\/img\/image-service3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image-service3@2x.jpg": {
@@ -1282,7 +1289,7 @@
 		"oAP": "\/img\/image-service3@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image-service3@3x.jpg": {
@@ -1293,7 +1300,7 @@
 		"oAP": "\/img\/image-service3@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image-service@2x.jpg": {
@@ -1304,7 +1311,7 @@
 		"oAP": "\/img\/image-service@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image-service@3x.jpg": {
@@ -1315,7 +1322,7 @@
 		"oAP": "\/img\/image-service@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image.jpg": {
@@ -1326,7 +1333,7 @@
 		"oAP": "\/img\/image.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image@2x.jpg": {
@@ -1337,7 +1344,7 @@
 		"oAP": "\/img\/image@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/image@3x.jpg": {
@@ -1348,7 +1355,7 @@
 		"oAP": "\/img\/image@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/insurance.jpg": {
@@ -1359,7 +1366,7 @@
 		"oAP": "\/img\/insurance.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/insurance3-big.jpg": {
@@ -1370,7 +1377,7 @@
 		"oAP": "\/img\/insurance3-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/insurance3-big@2x.jpg": {
@@ -1381,7 +1388,7 @@
 		"oAP": "\/img\/insurance3-big@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/insurance3-big@3x.jpg": {
@@ -1392,7 +1399,7 @@
 		"oAP": "\/img\/insurance3-big@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/insurance@2x.jpg": {
@@ -1403,7 +1410,7 @@
 		"oAP": "\/img\/insurance@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/insurance@3x.jpg": {
@@ -1414,7 +1421,7 @@
 		"oAP": "\/img\/insurance@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/mite-control-bg.jpg": {
@@ -1425,7 +1432,7 @@
 		"oAP": "\/img\/mite-control-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/mite-control-bg@2x.jpg": {
@@ -1436,7 +1443,7 @@
 		"oAP": "\/img\/mite-control-bg@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/mite-control-bg@3x.jpg": {
@@ -1447,7 +1454,7 @@
 		"oAP": "\/img\/mite-control-bg@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photo-1496180727794-817822-f-65950.jpg": {
@@ -1458,7 +1465,7 @@
 		"oAP": "\/img\/photo-1496180727794-817822-f-65950.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photo-1496180727794-817822-f-65950@2x.jpg": {
@@ -1469,7 +1476,7 @@
 		"oAP": "\/img\/photo-1496180727794-817822-f-65950@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photo-1496180727794-817822-f-65950@3x.jpg": {
@@ -1480,7 +1487,7 @@
 		"oAP": "\/img\/photo-1496180727794-817822-f-65950@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photo-1499012276815-a-80-b-5512-deae.jpg": {
@@ -1491,7 +1498,7 @@
 		"oAP": "\/img\/photo-1499012276815-a-80-b-5512-deae.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photo-1499012276815-a-80-b-5512-deae@2x.jpg": {
@@ -1502,7 +1509,7 @@
 		"oAP": "\/img\/photo-1499012276815-a-80-b-5512-deae@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photo-1499012276815-a-80-b-5512-deae@3x.jpg": {
@@ -1513,7 +1520,7 @@
 		"oAP": "\/img\/photo-1499012276815-a-80-b-5512-deae@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photo-1519974719765-e-6559-eac-2575.jpg": {
@@ -1524,7 +1531,7 @@
 		"oAP": "\/img\/photo-1519974719765-e-6559-eac-2575.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photo-1519974719765-e-6559-eac-2575@2x.jpg": {
@@ -1535,7 +1542,7 @@
 		"oAP": "\/img\/photo-1519974719765-e-6559-eac-2575@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photo-1519974719765-e-6559-eac-2575@3x.jpg": {
@@ -1546,7 +1553,7 @@
 		"oAP": "\/img\/photo-1519974719765-e-6559-eac-2575@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/sales.jpg": {
@@ -1557,7 +1564,7 @@
 		"oAP": "\/img\/sales.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/sales2.jpg": {
@@ -1568,7 +1575,7 @@
 		"oAP": "\/img\/sales2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/sales2@2x.jpg": {
@@ -1579,7 +1586,7 @@
 		"oAP": "\/img\/sales2@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/sales2@3x.jpg": {
@@ -1590,7 +1597,7 @@
 		"oAP": "\/img\/sales2@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/sales3.jpg": {
@@ -1601,7 +1608,7 @@
 		"oAP": "\/img\/sales3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/sales3@2x.jpg": {
@@ -1612,7 +1619,7 @@
 		"oAP": "\/img\/sales3@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/sales3@3x.jpg": {
@@ -1623,7 +1630,7 @@
 		"oAP": "\/img\/sales3@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/sales@2x.jpg": {
@@ -1634,7 +1641,7 @@
 		"oAP": "\/img\/sales@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/sales@3x.jpg": {
@@ -1645,7 +1652,7 @@
 		"oAP": "\/img\/sales@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/sign-out.svg": {
@@ -1657,6 +1664,22 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/intro.html": {
 		"cB": 0,
@@ -1693,13 +1716,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/previous_html\/advices-inner-page1.html",
-		"oF": 0
-		},
-	"\/previous_html\/advices.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/previous_html\/advices.html",
 		"oF": 0
 		},
 	"\/previous_html\/insurances.html": {
@@ -1774,7 +1790,8 @@
 	"displayValue": "VTB",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ceiling",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 552859098
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

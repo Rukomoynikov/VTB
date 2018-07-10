@@ -199,13 +199,13 @@ overflow: auto;
   
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .cards__wrapper {
     width: 288px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .cards__wrapper {
     width: 640px;
     justify-content: space-between;
@@ -263,10 +263,9 @@ overflow: auto;
 }
 
 .cards-header p {
-  width: 555px;
+  
   margin: 0 auto;
   padding-top: 16px;
-
   display: block;
   opacity: 0.5;
   font-size: 18px;
@@ -276,6 +275,12 @@ overflow: auto;
   line-height: 1.39;
   letter-spacing: 0.18px;
   color: #232323;
+}
+
+@media (min-width: 768px) {
+  .cards-header p {
+    width: 555px;
+  }
 }
 
 .card {
@@ -899,3 +904,71 @@ overflow: auto;
   height: 20px;
   background: url('img/sign-out.svg') no-repeat;
 }
+
+.helper {
+  background-color: #ffffff;
+}
+
+.helper__header p {
+  margin: 0;
+  justify-content: space-between;
+}
+
+.helper__header a {
+  text-decoration: none;
+}
+
+.helper__header span {
+  display: flex;
+  font-family: FF Meta Pro Med;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 0;
+  padding-left: 136px;
+    padding-top: 20px;
+   font-weight: 300;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.helper__name--input {
+  display: block;
+  width: 280px;
+  margin: 0 auto;
+  padding: 50px 0px 10px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #232323;
+  border-bottom: solid 1px #979797;
+}
+
+/*//*/
+
+.helper__switchers input[type=radio] {
+  display: none;
+}
+
+.helper__switchers label {
+  display: block;
+  text-align: center;
+  width: 56px;
+  padding: 16px 0px;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.1px;
+  color: #232323;
+  border-radius: 6px;
+  border: solid 2px rgba(192, 192, 192, 0.3);
+}
+
+.helper__switchers input[type=radio]:checked + label{
+  border: solid 2px #02ad58;
+}
+
+
+
+
