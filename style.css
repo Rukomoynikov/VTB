@@ -385,7 +385,9 @@ overflow: auto;
   color: #000000;
 }
 
-@media (min-width: 767px) {
+/*ПЕРВЫЙ ВАРИАНТ ПЛАНШЕТНОЙ ВЕРСИИ*/
+
+@media (min-width: 1020px) {
   .list {
     height: 350px;
   }
@@ -398,6 +400,37 @@ overflow: auto;
     padding-bottom: 5px;
   }
 }
+
+@media (min-width: 1200px) {
+  .list {
+    height: 350px;
+  }
+
+  .list h3 {
+    padding: 17px 16px 50px;
+  }
+
+  .hidden h3 {
+    padding-bottom: 5px;
+  }
+}
+
+/*ВТОРОЙ ВАРИАНТ ПЛАНШЕТНОЙ ВЕРСИИ*/
+
+
+/*@media (min-width: 1020px) {
+  .list a {
+    height: 465px;
+  }
+
+  .list h3 {
+    padding: 17px 16px 50px;
+  }
+.hidden h3 {
+    padding-bottom: 5px;
+  
+  }
+}*/
 
 .hidden {
   content: "";
