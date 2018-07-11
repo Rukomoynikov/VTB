@@ -92,7 +92,7 @@ body {
   }
 } 
 
-.main-nav__toggle {
+/*.main-nav__toggle {
   position: absolute;
   z-index: 2;
   display: block;
@@ -116,6 +116,17 @@ body {
   background-color: #ffffff;
   box-shadow: 0 6px 0 0 #ffffff, 0 12px 0 0 #ffffff;
 }
+*/
+
+.main-nav__toggle {
+  display: flex;
+width: 18px; 
+height:14px;
+  background-image: url("img/menu.svg");
+
+  background-repeat: no-repeat;
+}
+
 
 .main-nav__header p {
   display: flex;
@@ -304,7 +315,7 @@ overflow: auto;
   .card {
     margin: 0px 0px 16px 0px;
      width: 288px;
-     height: 350px;  /*?*/
+     min-height: 350px;  /*?*/
   }
 }
 
@@ -312,7 +323,7 @@ overflow: auto;
   .card {
      margin: 0px 0px 32px 0px;
      width: 360px;
-     height: 475px;  /*?*/
+     min-height: 475px;  /*?*/
   }
 }
 
@@ -336,12 +347,6 @@ overflow: auto;
   color: #111111;
 }
 
-@media (min-width: 767px) {
-  .card h3 {
-    padding: 17px 16px 50px;
-  }
-}
-
 .card p {
   margin: 0px;
   padding: 2px 16px 16px;
@@ -355,6 +360,7 @@ overflow: auto;
 }
 
 .card .purchase-description {
+  display: block;
   opacity: 0.6;
   font-size: 12px;
   font-weight: normal;
@@ -366,6 +372,7 @@ overflow: auto;
 }
 
 .card .purchase-price {
+  display: block;
   font-family: HelveticaNeue;
   font-size: 20px;
   font-weight: normal;
@@ -374,6 +381,20 @@ overflow: auto;
   line-height: normal;
   letter-spacing: -0.2px;
   color: #000000;
+}
+
+@media (min-width: 767px) {
+  .list {
+    height: 350px;
+  }
+
+  .list h3 {
+    padding: 17px 16px 50px;
+  }
+
+  .hidden h3 {
+    padding-bottom: 5px;
+  }
 }
 
 .hidden {
@@ -414,10 +435,29 @@ overflow: auto;
     height: initial;
   }
 
-  .card:hover h3 {
+ .hidden:hover {
+    display: block;
+    height: initial;
+  }
+
+@media (min-width: 768px) {
+  .list__title h3 {
+   padding: 17px 16px 0;
+}
+  }
+
+
+
+/*
+  .hidden:hover h3 {
     padding: 17px 16px 0;
   }
 }
+
+.hidden:hover h3 {
+    padding: 17px 16px 0;
+  }
+}*/
 
 .insurances__button {
   font-size: 14px;
@@ -447,7 +487,7 @@ overflow: auto;
 
 .inner-page__header {
   position: relative;
-  height: 540px;
+  min-height: 540px;
 }
 
 .inner-page__menu {
