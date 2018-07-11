@@ -119,12 +119,14 @@ body {
 */
 
 .main-nav__toggle {
-  display: flex;
+  display: inline-block;
+  background-color: transparent;
+  border: 0px;
 width: 18px; 
 height:14px;
-  background-image: url("img/menu.svg");
+ /* background-image: url("img/menu.svg");
 
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
 
 
