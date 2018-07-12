@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Insurances</title>
-		<meta charset="utf-8">
+	  	<title>Insurances</title>
+  		<meta charset="utf-8">
   		<link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="fonts/stylesheet.css"/>
       <meta name="viewport" content="width=device-width">
@@ -99,7 +99,7 @@
       </div>
 		</section>
 
-<nav class="side-menu">
+    <nav class="side-menu">
       <div class="side-menu__wrapper">
         <div class="side-menu__wrapper--navigation">
           <ul class="side-menu__items list-big__items">
@@ -121,28 +121,6 @@
         <a href="#" class="log-out">Выйти</a>
       </div>
     </nav>
-
-<script type="text/javascript">
-  var link = document.querySelector(".main-nav__toggle");
-  var popup = document.querySelector(".side-menu");
-  var popupBody = document.querySelector(".main-nav");
-
-  link.addEventListener("click", function(event) {
-    event.preventDefault();
-    popup.classList.add("side-menu-show");
-    popupBody.classList.add("main-nav-show");
-  });
-
-
-
-    window.addEventListener("keydown", function(event) {
-    if (event.keyCode === 27) {
-      if (popup.classList.contains("side-menu-show")) {
-        popup.classList.remove("side-menu-show");
-      }
-    }
-  });
-</script>
-
+    <script type="text/javascript" src="./popup.js" />
 	</body>
 </html>
