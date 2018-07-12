@@ -92,49 +92,18 @@ body {
   }
 } 
 
-/*.main-nav__toggle {
-  position: absolute;
-  z-index: 2;
-  display: block;
-  top: 21px;
-  left: 0;
-  width: 18px;
-  height: 14px;
-  font-size: 0;
-  background-color: transparent;
-  cursor: pointer;
-  border: none;
-}
-
-.main-nav__closed .main-nav__toggle::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 18px;
-  height: 2px;
-  background-color: #ffffff;
-  box-shadow: 0 6px 0 0 #ffffff, 0 12px 0 0 #ffffff;
-}
-*/
-
 .main-nav__toggle {
   display: inline-block;
   background-color: transparent;
   border: 0px;
-width: 18px; 
-height:14px;
- /* background-image: url("img/menu.svg");
-
-  background-repeat: no-repeat;*/
+  width: 18px; 
+  height:14px;
 }
 
 
 .main-nav__header p {
   display: flex;
-
-  /*display: inline-block;*/
-  padding-top: 14px;
+  /*padding-top: 14px;*/
 
   margin: 0;
   font-size: 20px;
@@ -147,9 +116,7 @@ height:14px;
 }
 
 .main-nav__wrapper {
-  /*width: 1200px;*/
-
-overflow: auto;
+  overflow: auto;
   white-space: nowrap;
   /*width: 320px;*/
   height: 47px;
@@ -240,8 +207,7 @@ overflow: auto;
 
 @media (max-width: 767px) {
   .cards-header {
-    width: 250px;
-    margin-left: 16px;
+    width: 284px;
   }
 }
 
@@ -481,19 +447,6 @@ overflow: auto;
    padding: 17px 16px 0;
 }
   }
-
-
-
-/*
-  .hidden:hover h3 {
-    padding: 17px 16px 0;
-  }
-}
-
-.hidden:hover h3 {
-    padding: 17px 16px 0;
-  }
-}*/
 
 .insurances__button {
   font-size: 14px;
@@ -943,7 +896,6 @@ overflow: auto;
   font-weight: 500;
 }
 
-
 .list-small__item {
   font-size: 12px;
   font-weight: 300;
@@ -1000,26 +952,22 @@ overflow: auto;
   font-size: 16px;
   letter-spacing: 0;
   padding-left: 136px;
-    padding-top: 20px;
-   font-weight: 300;
-    color: #ffffff;
-    justify-content: space-between;
+  padding-top: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  justify-content: space-between;
 }
 
 .helper__name--input {
   display: block;
   width: 280px;
   margin: 0 auto;
-  /*padding: 50px 0px 10px;*/
   padding: 50px 0px 0px;
   text-align: center;
   font-size: 18px;
   letter-spacing: 0;
   color: #232323;
-  /*border-bottom: solid 1px #979797;*/
 }
-
-
 
 .helper input {
   border: 0px;
@@ -1091,12 +1039,11 @@ overflow: auto;
 .main-nav__toggle button {
   margin: 0;
   padding: 0;
-  
 }
 
 .main-nav__toggle img {
   margin: 0;
-  padding: 0;
+  padding: 6px 0px 0px;
   
 }
 
