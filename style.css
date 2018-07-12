@@ -1,3 +1,10 @@
+body {
+  margin: 0 auto;
+  font-family: 'FF Meta Pro';
+  font-weight: 300;
+  font-style: normal;
+}
+
 @media (max-width: 767px) {
   .card img {
     width: 288px;
@@ -28,15 +35,23 @@
 	}
 }
 
-body {
-  margin: 0 auto;
-  font-family: 'FF Meta Pro';
-  font-weight: 300;
-  font-style: normal;
+/*.profile {
+  display: none;
 }
+
+@media (max-width: 767px) {
+  .profile {
+    display: block;
+  }
+
+*/
+/*.profile {
+  width: 320px;
+}*/
 
 .window-fix_small {
   width: 320px;
+  /*width: 100%;*/
   opacity: 0.95;
   margin: 0 auto;
   background-image: url("img/group.jpg");
@@ -54,6 +69,38 @@ body {
   color: #000000;
 }
 
+.intro-header p {
+  display: block;
+  width: 234px;
+  padding-top: 32px;
+  padding-bottom: 50px;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #232323;
+}
+
+a.intro-button {
+  display: block;
+  width: 200px;
+  border-radius: 6px;
+  background-color: #0a2896;
+  text-decoration: none;
+  text-align: center;
+  padding: 19px 11px 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
 .intro-logo img {
   display: block;
   margin: 98px 0px 20px 10px;
@@ -68,10 +115,112 @@ body {
 
 .main-nav__header {
   position: relative;
+  justify-content: space-between;
   display: flex;
-  justify-content: center;
   margin: 0 auto;
   height: 56px;
+  z-index: 1;
+}
+
+.side-menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 240px;
+  padding-top: 96px;
+  padding-left: 16px;
+  background-color: #02283b;
+  display: none;
+  z-index: 2;
+}
+
+.side-menu-show {
+  display: block;
+  /*animation: appearance 0.9s;*/
+}
+
+/*@keyframes appearance {
+  0% {
+    transform: translateX(2000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+*/
+
+.main-nav-show {
+  transform: translateX(50%);
+}
+
+.side-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.side-menu li {
+  list-style-type: none;
+  margin: 0;
+}
+
+.side-menu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.list-big__item {
+  line-height: 22px;
+  font-family: 'FF Meta Pro Med';
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  padding-top: 30px;
+}
+
+.side-menu--mail {
+  padding: 60px 0px 40px;
+  font-family: 'FF Meta Pro Med';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.list-small__item {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  padding-top: 15px;
+}
+
+.side-menu .log-out {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  margin: 55px 0 0 0;
+  padding-bottom: 25px;
+  line-height: 18px;
+  opacity: 0.6;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.side-menu .log-out::before {
+  position: absolute;
+  content: "";
+  top: 3px;
+  left: 50px;
+  width: 20px;
+  height: 20px;
+  background: url('img/sign-out.svg') no-repeat;
 }
 
 @media (max-width: 767px) {
@@ -93,7 +242,7 @@ body {
 } 
 
 .main-nav__toggle {
-  display: inline-block;
+  display: inline-flex;
   background-color: transparent;
   border: 0px;
   width: 18px; 
@@ -233,7 +382,7 @@ body {
   margin: 0;
   padding-top: 24px;
   font-size: 36px;
-  font-family: 'FF Meta Pro Med';
+  font-family: ''FF Meta Pro Med'';
   font-style: normal;
   font-stretch: normal;
   line-height: 1.15;
@@ -305,7 +454,7 @@ body {
   display: block;
   margin: 0px;
   padding: 17px 16px 0px;
-  font-family: 'FF Meta Pro Med';
+  font-family: ''FF Meta Pro Med'';
   font-size: 18px;
   font-weight: 500;
   font-style: normal;
@@ -666,7 +815,7 @@ body {
 .articleTitle__mainTitle {
   margin: 0px;
   padding: 182px 0px 0px 16px;
-  font-family: 'FF Meta Pro Med';
+  font-family: ''FF Meta Pro Med'';
   font-size: 26px;
   font-weight: 500;
   font-style: normal;
@@ -722,7 +871,7 @@ body {
 .profile__title {
   padding: 0;
   color: #232323;
-  font-family: FF Meta Pro Med;
+  font-family: 'FF Meta Pro Med';
   font-size: 18px;
   font-weight: 500;
   font-style: normal;
@@ -787,7 +936,7 @@ body {
   text-align: left;
   padding-top: 7%;
   display: inline-block;
-  font-family: FF Meta Pro Med;
+  font-family: 'FF Meta Pro Med';
   font-size: 14px;
   font-weight: 500;
   font-style: normal;
@@ -853,84 +1002,7 @@ body {
   color: #e62632;
 }
 
-/*боковое меню*/
-
-.side-menu {
-  width: 240px;
-  padding-top: 96px;
-  padding-left: 16px;
-  background-color: #02283b;
-}
-
-.side-menu ul {
-  margin: 0;
-  padding: 0;
-}
-
-.side-menu li {
-  list-style-type: none;
-  margin: 0;
-}
-
-.side-menu a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.list-big__item {
-  line-height: 22px;
-  font-family: FF Meta Pro Med;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  padding-top: 30px;
-}
-
-.side-menu--mail {
-  padding: 60px 0px 40px;
-  font-family: FF Meta Pro Med;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.list-small__item {
-  font-size: 12px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.83;
-  padding-top: 15px;
-}
-
-.side-menu .log-out {
-  position: relative;
-  display: block;
-  text-decoration: none;
-  margin: 55px 0 0 0;
-  padding-bottom: 25px;
-  line-height: 18px;
-  opacity: 0.6;
-  font-size: 12px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #ffffff;
-}
-
-.side-menu .log-out::before {
-  position: absolute;
-  content: "";
-  top: 3px;
-  left: 50px;
-  width: 20px;
-  height: 20px;
-  background: url('img/sign-out.svg') no-repeat;
-}
+/*мобильная версия Помощник*/
 
 .helper {
   background-color: #ffffff;
@@ -947,7 +1019,7 @@ body {
 
 .helper__header span {
   display: flex;
-  font-family: FF Meta Pro Med;
+  font-family: 'FF Meta Pro Med';
   line-height: 20px;
   font-size: 16px;
   letter-spacing: 0;
@@ -1032,18 +1104,20 @@ body {
   color: white;
 }
 /*переписвать*/
-.main-nav__header {
-  justify-content: space-between;
-}
-
 .main-nav__toggle button {
+  border: 0;
   margin: 0;
   padding: 0;
+  outline: none;
+  /*не работает - обводка всё равно есть*/
 }
 
 .main-nav__toggle img {
+  padding-top: 6px;
   margin: 0;
   padding: 6px 0px 0px;
-  
 }
+/*поп-ап*/
+
+/*боковое меню*/
 
