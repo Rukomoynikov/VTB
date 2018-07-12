@@ -160,7 +160,7 @@ overflow: auto;
   margin: 0;
   padding: 0;
   list-style-type: none;
-  padding-left: 16px;
+  /*padding-left: 16px;*/
 }
 
 .main-nav__items li {
@@ -469,6 +469,7 @@ overflow: auto;
     display: block;
     height: initial;
   }
+}
 
  .hidden:hover {
     display: block;
@@ -1082,3 +1083,20 @@ overflow: auto;
   border: solid 2px rgba(192, 192, 192, 0.3);
   color: white;
 }
+/*переписвать*/
+.main-nav__header {
+  justify-content: space-between;
+}
+
+.main-nav__toggle button {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.main-nav__toggle img {
+  margin: 0;
+  padding: 0;
+  
+}
+
