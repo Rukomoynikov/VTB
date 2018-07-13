@@ -149,8 +149,14 @@ a.intro-button {
 }
 */
 
-.main-nav-show {
-  transform: translateX(50%);
+.side-menu__body {
+  background-color: #02283b;;
+  height: 1000px;
+}
+
+.main-nav-show,
+.cards-show {
+  transform: translateX(240px);
 }
 
 .side-menu ul {

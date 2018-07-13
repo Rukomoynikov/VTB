@@ -98,29 +98,66 @@
         </div>
       </div>
 		</section>
-
+    
     <nav class="side-menu">
-      <div class="side-menu__wrapper">
-        <div class="side-menu__wrapper--navigation">
-          <ul class="side-menu__items list-big__items">
-            <li class="side-menu__item list-big__item"><a href="profile.html">Профиль</a></li>
-            <li class="side-menu__item list-big__item"><a href="advices.html">Лента советов</a></li>
-            <li class="side-menu__item list-big__item"><a href="list.html">Страховые продукты</a></li>
-            <li class="side-menu__item side-menu--mail"><a href="#" class="">Написать нам</a></li>
-          </ul>
+      <div class="side-menu__body">
+        <div class="side-menu__wrapper">
+          <div class="side-menu__wrapper--navigation">
+            <ul class="side-menu__items list-big__items">
+              <li class="side-menu__item list-big__item"><a href="profile.html">Профиль</a></li>
+              <li class="side-menu__item list-big__item"><a href="advices.html">Лента советов</a></li>
+              <li class="side-menu__item list-big__item"><a href="list.html">Страховые продукты</a></li>
+              <li class="side-menu__item side-menu--mail"><a href="#" class="">Написать нам</a></li>
+            </ul>
+          </div>
+          <div class="side-menu__wrapper--navigation list-small">
+            <ul class="side-menu__items list-small__items">
+              <li class="side-menu__item list-small__item"><a href="#">Как я работаю</a></li>
+              <li class="side-menu__item list-small__item"><a href="#">Вопросы-ответы</a></li>
+              <li class="side-menu__item list-small__item"><a href="#">Контакты</a></li>
+              <li class="side-menu__item list-small__item"><a href="#">Оферта</a></li>
+              <li class="side-menu__item list-small__item"><a href="#">Лицензионное соглашение</a></li>
+            </ul>
+          </div>
+          <a href="#" class="log-out">Выйти</a>
         </div>
-        <div class="side-menu__wrapper--navigation list-small">
-          <ul class="side-menu__items list-small__items">
-            <li class="side-menu__item list-small__item"><a href="#">Как я работаю</a></li>
-            <li class="side-menu__item list-small__item"><a href="#">Вопросы-ответы</a></li>
-            <li class="side-menu__item list-small__item"><a href="#">Контакты</a></li>
-            <li class="side-menu__item list-small__item"><a href="#">Оферта</a></li>
-            <li class="side-menu__item list-small__item"><a href="#">Лицензионное соглашение</a></li>
-          </ul>
-        </div>
-        <a href="#" class="log-out">Выйти</a>
       </div>
     </nav>
-    <script type="text/javascript" src="./popup.js" />
+    <!-- <script type="text/javascript" src="/popup.js" > -->
+    <script type="text/javascript"> 
+      var link = document.querySelector(".main-nav__toggle");
+      var popup = document.querySelector(".side-menu");
+      var popupMenu = document.querySelector(".main-nav");
+      var popupBody = document.querySelector(".cards");
+      var close = popup.querySelector(".log-out");
+
+      link.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.add("side-menu-show");
+        popupMenu.classList.add("main-nav-show");
+        popupBody.classList.add("cards-show");
+      });
+
+        close.addEventListener("click", function(event) {
+          event.preventDefault();
+          popup.classList.remove("side-menu-show");
+          popupMenu.classList.remove("main-nav-show");
+          popupBody.classList.remove("cards-show");
+        });
+
+      window.addEventListener("keydown", function(event) {
+        if (event.keyCode === 27) {
+          if (popup.classList.contains("side-menu-show")) {
+            popup.classList.remove("side-menu-show");
+          }
+          if (popup.classList.contains("main-nav-show")) {
+            popupMenu.classList.remove("main-nav-show");
+          }
+          if (popup.classList.contains("cards-show")) {
+            popupBody.classList.remove("cards-show");
+          }
+        }
+      });
+    </script>
 	</body>
 </html>
