@@ -1017,6 +1017,7 @@ a.intro-button {
 .helper__header p {
   margin: 0;
   justify-content: space-between;
+  padding-top: 14px;
 }
 
 .helper__header a {
