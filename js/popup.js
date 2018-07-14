@@ -24,20 +24,10 @@
       if (popup.classList.contains("side-menu-show")) {
         popup.classList.remove("side-menu-show");
       }
-    }
-  });
-
-window.addEventListener("keydown", function(event) {
-    if (event.keyCode === 27) {
-      if (popupMenu.classList.contains("main-nav-show")) {
+      if (popup.classList.contains("main-nav-show")) {
         popupMenu.classList.remove("main-nav-show");
       }
-    }
-  });
-
-window.addEventListener("keydown", function(event) {
-    if (event.keyCode === 27) {
-      if (popupBody.classList.contains("cards-show")) {
+      if (popup.classList.contains("cards-show")) {
         popupBody.classList.remove("cards-show");
       }
     }

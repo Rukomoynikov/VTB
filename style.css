@@ -3,6 +3,7 @@ body {
   font-family: 'FF Meta Pro';
   font-weight: 300;
   font-style: normal;
+  background-color: #f1f2f4;
 }
 
 @media (max-width: 767px) {
@@ -35,23 +36,8 @@ body {
 	}
 }
 
-/*.profile {
-  display: none;
-}
-
-@media (max-width: 767px) {
-  .profile {
-    display: block;
-  }
-
-*/
-/*.profile {
-  width: 320px;
-}*/
-
 .window-fix_small {
   width: 320px;
-  /*width: 100%;*/
   opacity: 0.95;
   margin: 0 auto;
   background-image: url("img/group.jpg");
@@ -136,18 +122,7 @@ a.intro-button {
 
 .side-menu-show {
   display: block;
-  /*animation: appearance 0.9s;*/
 }
-
-/*@keyframes appearance {
-  0% {
-    transform: translateX(2000px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-*/
 
 .side-menu__body {
   background-color: #02283b;;
@@ -253,13 +228,25 @@ a.intro-button {
   border: 0px;
   width: 18px; 
   height:14px;
+  outline: none;
+}
+
+.main-nav__toggle button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.main-nav__toggle img {
+  padding-top: 6px;
+  margin: 0;
+  padding: 6px 0px 0px;
 }
 
 
 .main-nav__header p {
   display: flex;
-  /*padding-top: 14px;*/
-
   margin: 0;
   font-size: 20px;
   font-weight: 300;
@@ -271,9 +258,6 @@ a.intro-button {
 }
 
 .main-nav__wrapper {
-  overflow: auto;
-  white-space: nowrap;
-  /*width: 320px;*/
   height: 47px;
   background-color: #ffffff;
 }
@@ -282,7 +266,9 @@ a.intro-button {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  /*padding-left: 16px;*/
+  /*горизонтальная прокрутка*/
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .main-nav__items li {
@@ -1046,6 +1032,7 @@ a.intro-button {
   font-size: 18px;
   letter-spacing: 0;
   color: #232323;
+  outline: none;
 }
 
 .helper input {
@@ -1110,21 +1097,3 @@ a.intro-button {
   border: solid 2px rgba(192, 192, 192, 0.3);
   color: white;
 }
-/*переписвать*/
-.main-nav__toggle button {
-  border: 0;
-  margin: 0;
-  padding: 0;
-  outline: none;
-  /*не работает - обводка всё равно есть*/
-}
-
-.main-nav__toggle img {
-  padding-top: 6px;
-  margin: 0;
-  padding: 6px 0px 0px;
-}
-/*поп-ап*/
-
-/*боковое меню*/
-
