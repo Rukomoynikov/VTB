@@ -184,7 +184,8 @@ a.intro-button {
   margin: 55px 0 0 0;
   padding-bottom: 25px;
   line-height: 18px;
-  opacity: 0.6;
+  /*opacity: 0.6;*/
+  opacity: 0.8;
   font-size: 12px;
   font-weight: 300;
   font-style: normal;
@@ -924,7 +925,7 @@ a.intro-button {
 }
 
 .user-info {
-  width: 49%;
+  width: 48%;
   text-align: left;
   padding-top: 7%;
   display: inline-block;
@@ -949,7 +950,7 @@ a.intro-button {
 }
 
 .user-icon {
-  width: 49%;
+  width: 48%;
   text-align: right;
   display: inline-block;
   border-width: 0px;
