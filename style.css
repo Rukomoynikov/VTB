@@ -227,8 +227,6 @@ a.intro-button {
   display: inline-flex;
   background-color: transparent;
   border: 0px;
-  width: 18px; 
-  height:14px;
   outline: none;
 }
 
@@ -240,8 +238,11 @@ a.intro-button {
 }
 
 .main-nav__toggle img {
-  padding-top: 6px;
+  /*padding-top: 6px;*/
   margin: 0;
+   width: 18px; 
+  height:14px;
+
   padding: 6px 0px 0px;
 }
 
@@ -949,8 +950,10 @@ a.intro-button {
 .user::before {
   content: "";
   position: absolute;
-  top: 51px;
-  left: -17px;
+  /*top: 51px;
+  left: -17px;*/
+  top: 56px;
+  left: 0px;
   width: 322px;
   height: 2px;
   background-color: #f1f2f4;
@@ -962,7 +965,9 @@ a.intro-button {
   text-align: right;
  /*display: inline-block;*/
   display: inline-flex;
+  outline: none;
   border-width: 0px;
+  padding: 0;
 }
 
 .icon-password {
