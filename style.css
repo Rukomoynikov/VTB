@@ -919,16 +919,23 @@ a.intro-button {
 
 .user {
   position: relative;
-  width: 90%;
+  /*width: 90%;*/
+  width: 288px;
   min-height: 52px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+
+  display: flex;
+    justify-content: space-between;
 }
 
 .user-info {
-  width: 48%;
+  /*width: 48%;*/
+  width: 65px;
   text-align: left;
-  padding-top: 7%;
-  display: inline-block;
+  /*padding-top: 7%;*/
+  padding: 19px;
+  /*display: inline-block;*/
+  display: inline-flex;
   font-family: 'FF Meta Pro Med';
   font-size: 14px;
   font-weight: 500;
@@ -950,9 +957,11 @@ a.intro-button {
 }
 
 .user-icon {
-  width: 48%;
+  /*width: 48%;*/
+  width: 140px;
   text-align: right;
-  display: inline-block;
+ /*display: inline-block;*/
+  display: inline-flex;
   border-width: 0px;
 }
 
