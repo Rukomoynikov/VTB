@@ -23,20 +23,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/advices.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/advices.html",
-		"oF": 0
-		},
-	"\/article.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/article.html",
-		"oF": 0
-		},
 	"\/font_originals\/FF Meta Pro - Black Italic.otf": {
 		"cB": 0,
 		"ft": 8192,
@@ -368,6 +354,41 @@
 		"oAP": "\/fonts\/stylesheet-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/helper-timetable.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/helper-timetable.html",
+		"oF": 0
+		},
+	"\/helper\/helper-activated.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/helper\/helper-activated.html",
+		"oF": 0
+		},
+	"\/helper\/helper-appartment.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/helper\/helper-appartment.html",
+		"oF": 0
+		},
+	"\/helper\/helper-name.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/helper\/helper-name.html",
+		"oF": 0
+		},
+	"\/helper\/helper-timetable.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/helper\/helper-timetable.html",
+		"oF": 0
 		},
 	"\/image_originals\/01-intro-320.png": {
 		"ft": 32768,
@@ -1424,6 +1445,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/menu.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/menu.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/mite-control-bg.jpg": {
 		"ft": 16384,
 		"iS": 124235,
@@ -1681,6 +1712,13 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/index2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index2.html",
+		"oF": 0
+		},
 	"\/intro.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1688,12 +1726,15 @@
 		"oAP": "\/intro.html",
 		"oF": 0
 		},
-	"\/list.html": {
-		"cB": 0,
-		"ft": 8192,
+	"\/js\/popup.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "\/list.html",
-		"oF": 0
+		"oAP": "\/js\/popup-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/package-lock.json": {
 		"ft": 524288,
@@ -1711,53 +1752,63 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/previous_html\/advices-inner-page1.html": {
+	"\/pages\/advices.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/previous_html\/advices-inner-page1.html",
+		"oAP": "\/pages\/advices.html",
 		"oF": 0
 		},
-	"\/previous_html\/insurances.html": {
+	"\/pages\/article.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/previous_html\/insurances.html",
+		"oAP": "\/pages\/article.html",
 		"oF": 0
 		},
-	"\/previous_html\/purchases.html": {
+	"\/pages\/insurance.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/previous_html\/purchases.html",
+		"oAP": "\/pages\/insurance.html",
 		"oF": 0
 		},
-	"\/previous_html\/sales.html": {
+	"\/pages\/purchases.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/previous_html\/sales.html",
+		"oAP": "\/pages\/purchases.html",
 		"oF": 0
 		},
-	"\/previous_html\/services.html": {
+	"\/pages\/sales.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/previous_html\/services.html",
+		"oAP": "\/pages\/sales.html",
 		"oF": 0
+		},
+	"\/pages\/services.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/pages\/services.html",
+		"oF": 0
+		},
+	"\/popup.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/popup-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/profile.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/profile.html",
-		"oF": 0
-		},
-	"\/side-menu.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/side-menu.html",
 		"oF": 0
 		},
 	"\/style-min.css": {
