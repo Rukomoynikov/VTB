@@ -228,6 +228,7 @@ a.intro-button {
   background-color: transparent;
   border: 0px;
   outline: none;
+  cursor: pointer;
 }
 
 .main-nav__toggle button {
@@ -240,7 +241,7 @@ a.intro-button {
 .main-nav__toggle img {
   /*padding-top: 6px;*/
   margin: 0;
-   width: 18px; 
+  width: 18px; 
   height:14px;
 
   padding: 6px 0px 0px;
@@ -753,7 +754,6 @@ a.intro-button {
   color: #ffffff;
 }
 
-
 /*article*/
 
 .article {
@@ -920,22 +920,16 @@ a.intro-button {
 
 .user {
   position: relative;
-  /*width: 90%;*/
   width: 288px;
   min-height: 52px;
-  /*margin: 0 auto;*/
-
   display: flex;
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .user-info {
-  /*width: 48%;*/
   width: 65px;
   text-align: left;
-  /*padding-top: 7%;*/
   padding: 19px;
-  /*display: inline-block;*/
   display: inline-flex;
   font-family: 'FF Meta Pro Med';
   font-size: 14px;
@@ -950,8 +944,6 @@ a.intro-button {
 .user::before {
   content: "";
   position: absolute;
-  /*top: 51px;
-  left: -17px;*/
   top: 56px;
   left: 0px;
   width: 322px;
@@ -960,10 +952,8 @@ a.intro-button {
 }
 
 .user-icon {
-  /*width: 48%;*/
   width: 140px;
   text-align: right;
- /*display: inline-block;*/
   display: inline-flex;
   outline: none;
   border-width: 0px;
@@ -974,17 +964,21 @@ a.intro-button {
   text-align: left;
 }
 
-.password__link {
-  text-decoration: none;
-  line-height: 18px;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: right;
+.icon-password input {
+  width: 60px;
+  margin-left: 22px;
+  border: 0;
+  outline: none;
+}
+
+.icon-password input + label {
+  cursor: pointer;
+}
+
+.icon-label {
+  padding: 18px 10px 0px 0px;
   color: #02ad58;
+  font-size: 12px;
 }
 
 .profile__link {
