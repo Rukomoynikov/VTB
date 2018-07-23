@@ -3,7 +3,7 @@ body {
   font-family: 'FF Meta Pro';
   font-weight: 300;
   font-style: normal;
-  background-color: #f1f2f4;
+  background-color: #ffffff;
 }
 
 @media (max-width: 767px) {
@@ -36,16 +36,34 @@ body {
 	}
 }
 
-.window-fix_small {
-  width: 320px;
-  opacity: 0.95;
-  margin: 0 auto;
-  background-image: url("img/group.jpg");
-  background-repeat: no-repeat;
+@media (max-width: 1024px) {
+  .window-fix_small {
+    width: 320px;
+    opacity: 0.95;
+    margin: 0 auto;
+    background-image: url("img/group.jpg");
+    background-repeat: no-repeat;
+  }
+  .intro-header {
+    padding-top: 39px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .window-fix_big__wrapper {
+    width: 965px;
+    opacity: 0.95;
+    margin: 0 auto;
+    background-image: url("img/group-intro.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .intro-header {
+    padding-top: 60px;
+  }
 }
 
 .intro-header {
-  padding-top: 39px;
   padding-left: 30px;
   font-size: 60px;
   font-style: normal;
@@ -90,7 +108,7 @@ a.intro-button {
 .intro-logo img {
   display: block;
   margin: 98px 0px 20px 10px;
-  padding: 0;
+  padding: 0 0 15px 0;
   width: 127px;
   height: 46px;
 }
@@ -131,7 +149,7 @@ a.intro-button {
 
 .main-nav-show,
 .cards-show {
-  transform: translateX(240px);
+  transform: translateX(255px);
 }
 
 .side-menu ul {
@@ -205,21 +223,15 @@ a.intro-button {
   background: url('img/sign-out.svg') no-repeat;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   .main-nav__header {
     width: 320px;
   }
 }
 
-@media (min-width: 768px) {
-  .main-nav__header {
-    width: 600px;
-  }
-}
-
 @media (min-width: 1200px) {
   .main-nav__header {
-    width: 1140px;
+    width: 100%;
   }
 } 
 
@@ -569,7 +581,7 @@ a.intro-button {
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: normal;
+  letter-spacing: 1.2px;
   color: #ffffff;
   margin: 0 16px 16px 16px;
 }
@@ -1011,8 +1023,7 @@ a.intro-button {
 }
 
 .helper__header p {
-  margin: 0;
-  justify-content: space-between;
+  margin: 0 auto;
   padding-top: 14px;
 }
 
@@ -1020,7 +1031,7 @@ a.intro-button {
   text-decoration: none;
 }
 
-.helper__header span {
+.helper__link {
   display: flex;
   font-family: 'FF Meta Pro Med';
   line-height: 20px;
@@ -1031,6 +1042,33 @@ a.intro-button {
   font-weight: 300;
   color: #ffffff;
   justify-content: space-between;
+}
+
+@media (min-width: 1200px) {
+  .helper {
+    padding-top: 50px;
+  }
+  .helper__link {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    background-color: #0a2896;
+  }
+  .helper h2 {
+    text-align: left;
+  }
+}
+
+.wrapper--helper,
+.wrapper--helper p {
+  width: 260px;
+  text-align: left;
+}
+
+.helper__button {
+  width: 220px;
+  margin: 25px auto;
+  font-weight: 700;
 }
 
 .helper__name--input {

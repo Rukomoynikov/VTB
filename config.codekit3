@@ -1181,6 +1181,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/group-intro.jpg": {
+		"ft": 16384,
+		"iS": 355150,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/group-intro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/group-intro@2x.jpg": {
+		"ft": 16384,
+		"iS": 1335517,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/group-intro@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/group-intro@3x.jpg": {
+		"ft": 16384,
+		"iS": 2697734,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/group-intro@3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/group.jpg": {
 		"ft": 16384,
 		"iS": 86513,
