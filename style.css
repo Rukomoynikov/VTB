@@ -97,7 +97,7 @@ a.intro-button {
   padding: 19px 11px 15px;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: 700;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -1147,4 +1147,313 @@ a.intro-button {
   background-color: #0a2896;
   border: solid 2px rgba(192, 192, 192, 0.3);
   color: white;
+}
+
+/*landing page*/
+
+
+@media (min-width: 1200px) {
+  .landing-header .window-fix_big__wrapper{
+    width: 1062px;
+  }
+}
+
+.landing-title {
+  font-size: 80px;
+  line-height: 84px;
+  letter-spacing: 2.9px;
+  padding-top: 4px;
+}
+
+p.landing-description {
+  width: 324px;
+  font-size: 23px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: #232323;
+}
+
+.landing-links {
+  width: 222px;
+}
+
+a.personal-cabinet {
+  padding-left: 23px;
+  margin-top: 24px;
+  display: block;
+  text-decoration: none;
+  opacity: 0.4;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.landing-logo img {
+  margin: 77px 0px 20px 10px;
+}
+
+.section__title {
+  font-family: 'FF Meta Pro';
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.9;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #232323;
+}
+
+/*slider*/
+
+.advice__slider {
+  position: relative;
+}
+
+.advice__slider input[type=radio] {
+  position: absolute;
+  opacity: 0;
+}
+
+.slide a {
+  text-decoration: none;
+}
+
+.advice__slide {
+  width: 360px;
+  height: 474px;
+  opacity: 0.4;
+}
+
+.slider-controls {
+  position: absolute;
+  left: 47%;
+}
+
+.slider-controls label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  opacity: 0.1;
+  background-color: #1b1b1b;
+  
+  margin-left: 4px;
+  vertical-align: top;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"],
+#btn-3:checked ~ .slider-controls label[for="btn-3"],
+#btn-4:checked ~ .slider-controls label[for="btn-4"] {
+  opacity: 1;
+}
+
+/*.slide:nth-child(1) {
+  background-image: url("img/2-layers.png");
+  background-repeat: no-repeat;
+  background-position: 40% 38%;
+}
+
+.slide:nth-child(2) {
+  background-image: url("img/el-8-de-gran-via-loewe.png");
+  background-repeat: no-repeat;
+  background-position: 40% 0;
+}
+.slide:nth-child(3) {
+  background-image: url("img/perfume-png10291.png");
+  background-repeat: no-repeat;
+  background-position: 40% 0;
+}
+.slide:nth-child(4) {
+  background-image: url("img/red-poison.png");
+  background-repeat: no-repeat;
+  background-position: 40% 0;
+}*/
+
+
+/*#btn-1:checked ~ .slides .slide:nth-child(1) {
+  display: block;
+}
+#btn-2:checked ~ .slides .slide:nth-child(2) {
+  display: block;
+}
+#btn-3:checked ~ .slides .slide:nth-child(3) {
+  display: block;
+}
+#btn-4:checked ~ .slides .slide:nth-child(4) {
+  display: block;
+}*/
+
+#btn-1:checked ~ .slide:nth-child(1) {
+  opacity: 1;
+}
+#btn-2:checked ~ .slide:nth-child(2) {
+  opacity: 1;
+}
+#btn-3:checked ~ .slide:nth-child(3) {
+  opacity: 1;
+}
+#btn-4:checked ~ .slide:nth-child(4) {
+  opacity: 1;
+}
+
+
+/*slider end*/
+
+
+.feature-small {
+
+
+  display: inline-block;
+  width: 248px;
+  vertical-align: top;
+ 
+}
+
+.feature-small h3 {
+  font-family: 'FF Meta Pro Med';
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: #232323;
+  
+
+  margin: 0;
+  padding-top: 22px;
+}
+
+.feature-small p {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: #232323;
+}
+
+.landing-list {
+  /*display: flex;*/
+}
+
+.landing-list li {
+  display: block;
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 1200px) {
+  .landing-list li {
+    width: 668px;
+  }
+}
+
+.landing-list p {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #232323;
+  padding-bottom: 37px;
+}
+
+.landing-list__number {
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3a4a8c;
+  width: 18px;
+  border: 2px solid #3a4a8c;
+  border-radius: 50%;
+  padding: 7px 19px 6px 23px;
+}
+
+.acquaintance__wrapper .intro-button {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.landing-footer {
+  background-color: #101012;
+  
+}
+
+.landing-footer__contact-info {
+  width: 736px;
+
+
+  display: flex;
+  margin: 0 auto;
+  margin-top: 62px;
+  justify-content: space-between;
+}
+
+.landing-footer__contact-info li {
+  margin: 0;
+  padding-top: 21px;
+  padding-bottom: 23px;
+  display: flex;
+
+}
+
+.landing-footer__contact-info a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.landing-footer__copyright {
+background-color: #000000;
+}
+
+.landing-footer__copyright-link {
+  width: 85px;
+  margin: 0 auto;
+}
+
+.landing-footer__copyright-link p {
+  display: block;
+  margin: 0 auto;
+  padding-top: 16px;
+  opacity: 0.4;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.landing-footer__copyright-link a {
+  text-decoration: none;
+  display: block;
+  min-height: 57px;
 }
