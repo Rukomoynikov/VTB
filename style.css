@@ -1398,6 +1398,13 @@ a.personal-cabinet {
   .landing-footer__contact-info {
     width: 320px;
     flex-direction: column;
+    min-height: 217px;
+  }
+  .landing-footer__contact-info li {
+    padding-bottom: 0px;
+  }
+  .landing-footer__contact-info li:last-child {
+    padding-bottom: 23px;
   }
 }
 
@@ -1406,14 +1413,18 @@ a.personal-cabinet {
     width: 736px;
     justify-content: space-between;
   }
+  .landing-footer__contact-info li {
+    padding-bottom: 23px;
+  }
+  .landing-footer__copyright-link {
+    padding-top: 15px;
+  }
 }
 
 .landing-footer__contact-info li {
   margin: 0;
   padding-top: 21px;
-  padding-bottom: 23px;
   display: flex;
-
 }
 
 .landing-footer__contact-info a {
@@ -1459,4 +1470,80 @@ background-color: #000000;
 
 .landing-footer__copyright-link img {
   margin: 7px 0 15px;
+}
+
+
+/*СТАТИЧНЫЕ СТРАНИЦЫ*/
+
+.static-pages {
+  background-color: #ffffff;
+}
+
+@media (max-width: 1023px) {
+  .wrapper--static {
+    width: 288px;
+    text-align: left;
+  }
+  .static-pages h2 {
+    font-weight: 500;
+    padding: 43px 0 11px;
+  }
+
+  .static-pages__text p {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper--static {
+    width: 753px;
+  }
+  .static-pages__text p {
+    width: 753px;
+}
+
+.static-pages h2 {
+  text-align: left;
+  font-size: 36px;
+  font-weight: 500;
+  padding: 43px 0 11px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: -0.3px;
+  color: #232323;
+}
+
+.static-pages__text p {
+  margin: 0;
+  opacity: 1;
+  text-align: left;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #232323;
+  padding-bottom: 15px;
+}
+
+.contact-form {
+  color: #062299;
+}
+
+@media (max-width: 1023px) {
+  .job__button {
+    margin: 38px auto;
+
+    /*не работает*/
+    width: 268px; 
+  }
+}
+
+@media (min-width: 1024px) {
+  .job__button {
+    margin: 38px auto;
+    width: 380px;
+  }
 }
