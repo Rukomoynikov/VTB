@@ -1405,13 +1405,27 @@ a.personal-cabinet {
 }
 
 .landing-footer__contact-info {
-  width: 736px;
+  /*width: 736px;*/
 
 
   display: flex;
   margin: 0 auto;
   margin-top: 62px;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
+}
+
+@media (max-width: 1023px) {
+  .landing-footer__contact-info {
+    width: 320px;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) {
+  .landing-footer__contact-info {
+    width: 736px;
+    justify-content: space-between;
+  }
 }
 
 .landing-footer__contact-info li {
