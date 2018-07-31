@@ -865,6 +865,9 @@ a.intro-button {
 
 
 /*профиль*/
+.profile__body {
+  background-color: #f1f2f4;
+}
 
 .profile {
   background-color: #f1f2f4;
@@ -989,6 +992,7 @@ a.intro-button {
   margin-left: 22px;
   border: 0;
   outline: none;
+  background-color: #ffffff;
 }
 
 .icon-password input + label {
@@ -1088,6 +1092,7 @@ a.intro-button {
   letter-spacing: 0;
   color: #232323;
   outline: none;
+  background-color: #ffffff;
 }
 
 .helper input {
