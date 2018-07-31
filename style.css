@@ -985,6 +985,7 @@ a.intro-button {
 
 .icon-password {
   text-align: left;
+  background-color: #ffffff;
 }
 
 .icon-password input {
@@ -1232,6 +1233,8 @@ a.personal-cabinet {
 .advice__slider input[type=radio] {
   position: absolute;
   opacity: 0;
+/*временно*/
+      top: 200px; 
 }
 
 .slide a {
@@ -1269,52 +1272,24 @@ a.personal-cabinet {
   opacity: 1;
 }
 
-/*.slide:nth-child(1) {
-  background-image: url("img/2-layers.png");
-  background-repeat: no-repeat;
-  background-position: 40% 38%;
-}
 
-.slide:nth-child(2) {
-  background-image: url("img/el-8-de-gran-via-loewe.png");
-  background-repeat: no-repeat;
-  background-position: 40% 0;
-}
-.slide:nth-child(3) {
-  background-image: url("img/perfume-png10291.png");
-  background-repeat: no-repeat;
-  background-position: 40% 0;
-}
-.slide:nth-child(4) {
-  background-image: url("img/red-poison.png");
-  background-repeat: no-repeat;
-  background-position: 40% 0;
-}*/
-
-
-/*#btn-1:checked ~ .slides .slide:nth-child(1) {
-  display: block;
-}
-#btn-2:checked ~ .slides .slide:nth-child(2) {
-  display: block;
-}
-#btn-3:checked ~ .slides .slide:nth-child(3) {
-  display: block;
-}
-#btn-4:checked ~ .slides .slide:nth-child(4) {
-  display: block;
-}*/
-
-#btn-1:checked ~ .slide:nth-child(1) {
+#btn-1:checked ~ .slide .advice__slide:nth-child(1) {
   opacity: 1;
 }
-#btn-2:checked ~ .slide:nth-child(2) {
+#btn-2:checked ~ .slide .advice__slide:nth-child(2) {
+  /*background-image: url("img/1.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;*/
+  width: 410px;
+  height: 540px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+
   opacity: 1;
 }
-#btn-3:checked ~ .slide:nth-child(3) {
+#btn-3:checked ~ .slide .advice__slide:nth-child(3) {
   opacity: 1;
 }
-#btn-4:checked ~ .slide:nth-child(4) {
+#btn-4:checked ~ .slide .advice__slide:nth-child(4) {
   opacity: 1;
 }
 
@@ -1480,5 +1455,8 @@ background-color: #000000;
 .landing-footer__copyright-link a {
   text-decoration: none;
   display: block;
-  min-height: 57px;
+}
+
+.landing-footer__copyright-link img {
+  margin: 7px 0 15px;
 }
