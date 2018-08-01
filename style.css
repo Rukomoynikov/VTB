@@ -277,7 +277,7 @@ a.intro-button {
 }
 
 .main-nav__wrapper {
-  height: 47px;
+  min-height: 47px;
   background-color: #ffffff;
 }
 
@@ -292,26 +292,24 @@ a.intro-button {
 
 .main-nav__items li {
   display: inline-block;
-  padding: 12px 0px;
+  padding: 12px 9px 0px;
   text-align: center;
 }
 
 .main-nav__items a {
-  text-decoration: none;
-  padding: 17px 9px 0px;
-  opacity: 0.5;
+  font-size: 14px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1;
   letter-spacing: normal;
-  color: #222222;
-  font-size: 14px;
+  color: #000000;
+  opacity: 0.5;
+  text-decoration: none;
 }
 
 .main-nav__items .main-nav__item--active {
   font-size: 14px;
-  font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: 1;

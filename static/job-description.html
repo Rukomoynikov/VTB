@@ -7,7 +7,9 @@
       <link rel="stylesheet" href="../fonts/stylesheet.css"/>
       <meta name="viewport" content="width=device-width">
   </head>
-  <body>
+  <body style="display: flex;
+  min-height: 100vh;
+  flex-direction: column;">
     <nav class="main-nav main-nav__closed">
       <div class="wrapper--navigation cards__wrapper">
         <ul class="main-nav__header main-nav__items">
@@ -18,8 +20,10 @@
       </div>
     </nav>
 
+<!-- <main style="flex: 1;"> -->
+
     <section class="cards static-pages">
-      <div class="wrapper--navigation">
+      <div class="wrapper--navigation" style="flex: 1;">
         <div class="cards-header wrapper--static">
           <h2>Как я работаю</h2>
           <div class="static-pages__text">
@@ -52,6 +56,8 @@
         </div>
       </div>
     </footer>
+
+</main>
 
   </body>
 </html>
