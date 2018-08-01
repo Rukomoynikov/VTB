@@ -1226,6 +1226,10 @@ a.personal-cabinet {
   letter-spacing: 2px;
   text-align: center;
   color: #232323;
+
+  margin-top: 64px;
+  margin-bottom: 50px;
+
 }
 
 .advice__switches {
@@ -1327,28 +1331,62 @@ a.personal-cabinet {
 #btn-2:checked ~ .slide .advice__slide:nth-child(2) {
   /*background-image: url("img/1.jpg");
   background-repeat: no-repeat;
-  background-position: center top;*/
+  background-position: center top;
   width: 410px;
-  height: 540px;
+  height: 540px;*/
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
-
   opacity: 1;
 }
 #btn-3:checked ~ .slide .advice__slide:nth-child(3) {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
   opacity: 1;
 }
 #btn-4:checked ~ .slide .advice__slide:nth-child(4) {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
   opacity: 1;
 }
 
 /*slider end*/
 
+/*results*/
+
+.results {
+width: 970px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1023px) {
+  .results {
+    width: 289px;
+    margin: 0 auto;
+  }
+  .results__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) {
+  .results {
+    width: 970px;
+    margin: 0 auto;
+  }
+  .results__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+
+
+
 
 .feature-small {
-  display: inline-block;
-  width: 248px;
-  vertical-align: top;
- 
+  display: flex;
+  flex-direction: column;
+  
+  width: 253px;
 }
 
 .feature-small h3 {
@@ -1362,7 +1400,7 @@ a.personal-cabinet {
   color: #232323;
   
   margin: 0;
-  padding-top: 22px;
+  padding-top: 33px;
 }
 
 .feature-small p {
@@ -1373,24 +1411,30 @@ a.personal-cabinet {
   line-height: 1.3;
   letter-spacing: normal;
   color: #232323;
+
+  padding-top: 25px
 }
 
-.landing-list {
-  /*display: flex;*/
+
+
+@media (max-width: 1023px) {
+  .acquaintance__wrapper,
+  .needs__wrapper {
+    width: 289px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+    .acquaintance__wrapper,
+   .needs__wrapper {
+    width: 758px;
+    margin: 0 auto;
+  }
 }
 
 .landing-list li {
   display: block;
-}
-
-@media (max-width: 1199px) {
-
-}
-
-@media (max-width: 1200px) {
-  .landing-list li {
-    width: 668px;
-  }
 }
 
 .landing-list p {
