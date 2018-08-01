@@ -1249,15 +1249,45 @@ a.personal-cabinet {
 .advice__switches {
   margin: 0 auto;
   display: flex;
-  width: 525px;
-  min-height: 52px;
   justify-content: space-between;
   align-items: center;
-  border-radius: 50px;
   background-color: rgba(229, 229, 229, 0.3);
   box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.2);
-
   margin-bottom: 50px;
+}
+
+@media (max-width: 1023px) {
+  .advice__switches{
+    width: 288px;
+    height: 66px;
+    border-radius: 33px;
+  }
+  .switch__toggle {
+    padding: 0 11px;
+  }
+  #switch-1:checked ~ .switch__toggle,
+  #switch-2:checked ~ .switch__toggle {
+  height: 60px;
+  padding: 0 10px;
+  border-radius: 30px;
+}
+}
+
+@media (min-width: 1024px) {
+  .advice__switches {
+    width: 525px;
+    height: 52px;
+    border-radius: 50px;
+  }
+  .switch__toggle {
+    padding: 0 30px;
+  }
+  #switch-1:checked ~ .switch__toggle,
+  #switch-2:checked ~ .switch__toggle {
+    height: 46px;
+    padding: 0 29px;
+    border-radius: 50px;
+  }
 }
 
 .advice__switches input {
@@ -1266,7 +1296,6 @@ a.personal-cabinet {
 
 .switch__toggle {
   display: flex;
-  padding: 0 30px;
   align-items: center;
   font-size: 16px;
   font-weight: normal;
@@ -1280,9 +1309,7 @@ a.personal-cabinet {
 
 #switch-1:checked ~ .switch__toggle,
 #switch-2:checked ~ .switch__toggle {
-  min-height: 46px;
-  padding: 0 29px;
-  border-radius: 50px;
+  
   box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.17);
   background-color: #ffffff;
   border: solid 1px rgba(0, 0, 0, 0.1);
