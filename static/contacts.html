@@ -24,27 +24,21 @@
           <h2>Контакты</h2>
           <div class="static-pages__text">
             <p>Сервис принадлежит компании ВТБ Страхование. Если у вас есть вопросы по работе сервиса, то заполните форму справа, и мы постараемся оперативно на них ответить.</p>
-            <!-- <form class="login-form" action="#" method="post">
-              <label>Ваше имя<input class="icon-user" type="text" name="login" placeholder="Александр"></label>
-              <label>E-mail:<input class="icon-user" type="email" name="email" placeholder="Силин"></label>
-              <label>Ваш вопрос<textarea class="icon-user" name="message" placeholder="Добрый день! Меня зовут Александр Силин, у меня не получается использовать ваш сервис каждый день. Что мне делать?"></textarea></label>
-              <button class="hidden__link helper__button" type="submit">Отправить обращение</button>
-            </form> -->
-            <form class="login-form" action="#" method="post">
-              <div class="user user__contacts">
+            <form class="contacts__login-form" action="#" method="post"> 
+              <div class="user contacts__user">
                 <label for="login" class="user-info">Ваше имя</label>
                 <input class="user-icon" id="login" type="text" name="login-name" placeholder="Александр">
               </div>
             
-              <div class="user user__contacts">
+              <div class="user contacts__user">
                 <label for="email" class="user-info">E-mail</label>
                 <input class="user-icon" id="email" type="email" name="email" placeholder="Силин">
               </div>
-              <div class="user user__contacts">
-                <label for="email" class="user-info">E-mail</label>
-                <input class="user-icon" id="message" type="text" name="message" placeholder="Добрый день! Меня зовут Александр Силин, у меня не получается использовать ваш сервис каждый день. Что мне делать?"">
+              <div class="user contacts__user contacts__user-question">
+                <label for="message" class="user-info">Ваш вопрос</label>
+                <textarea class="user-icon" id="message" type="text" name="message" placeholder="Добрый день! Меня зовут Александр Силин, у меня не получается использовать ваш сервис каждый день. Что мне делать?"></textarea> 
               </div>
-              <button class="hidden__link helper__button" type="submit">Отправить обращение</button>
+              <button class="hidden__link contacts__button" type="submit">Отправить обращение</button>
             </form>
           </div>
         </div>
@@ -57,7 +51,7 @@
           <ul class="landing-footer__contact-info">
             <li><a href="job-description.html">Как я работаю</a></li>
             <li><a href="#">Вопросы-ответы</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="#">Контакты</a></li>
             <li><a href="#">Оферта</a></li>
             <li><a href="license.html">Лицензионное соглашение</a></li>
           </ul>
