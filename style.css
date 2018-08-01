@@ -1459,7 +1459,24 @@ width: 970px;
   line-height: normal;
   letter-spacing: normal;
   color: #232323;
-  padding-bottom: 37px;
+}
+
+@media (max-width: 1023px) {
+  .landing-list p {
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .landing-list p {
+    padding-bottom: 37px;
+    padding-left: 82px;
+  }
+}
+
+.landing-list__number,
+.landing-list__text {
+  display: inline-flex;
 }
 
 .landing-list__number {
@@ -1473,13 +1490,49 @@ width: 970px;
   width: 18px;
   border: 2px solid #3a4a8c;
   border-radius: 50%;
-  padding: 7px 19px 6px 23px;
+  padding: 4px 15px 3px 19px;
 }
 
-.acquaintance__wrapper .intro-button {
+
+
+@media (max-width: 1023px) {
+  .landing-list__number {
+    display: block;
+    margin: 0 auto;
+  }
+  .acquaintance__wrapper .intro-button {
+    margin: 0 auto;
+    width: 288px;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 1024px) {
+  .landing-list__number {
+
+    transform: translateY(16px);
+  }
+    p.landing-list__text {
+    width: 668px;
+    padding-left: 19px;
+  }
+  .acquaintance__wrapper .intro-button {
   margin: 0 auto;
   width: 400px;
 }
+}
+
+.landing-list__acquaintance {
+  padding-left: 0px;
+}
+
+
 
 .landing-footer {
   background-color: #101012;
@@ -1713,12 +1766,6 @@ width: 970px;
   text-align: left;
   resize: none;
 }
-
-/*.contacts__user-question input {
-  height: 100px;
-  display: block;
-  width: 200px;
-}*/
 
 .contacts__button {
   margin: 0 auto;
