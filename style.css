@@ -1456,7 +1456,14 @@ width: 970px;
   padding-top: 25px
 }
 
+.image-container {
+  height: 74px;
+  margin-top: 6px;
+}
 
+.life-img {
+  transform: translateY(8px);
+}
 
 @media (max-width: 1023px) {
   .acquaintance__wrapper,
@@ -1467,8 +1474,8 @@ width: 970px;
 }
 
 @media (min-width: 1024px) {
-    .acquaintance__wrapper,
-   .needs__wrapper {
+  .acquaintance__wrapper,
+  .needs__wrapper {
     width: 758px;
     margin: 0 auto;
   }
@@ -1488,16 +1495,37 @@ width: 970px;
   color: #232323;
 }
 
+.tick-text {
+  position: relative;
+}
+
+.tick-text:before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  top: 5px;
+  background-image: url("img/invalid-name.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 1023px) {
   .landing-list p {
     padding-bottom: 20px;
+  }
+  .tick-text:before {
+    left: -39px;
   }
 }
 
 @media (min-width: 1024px) {
   .landing-list p {
     padding-bottom: 37px;
-    padding-left: 82px;
+    padding-left: 33px;
+  }
+  .tick-text:before {
+    left: -27px;
   }
 }
 
