@@ -1689,6 +1689,7 @@ width: 970px;
 @media (max-width: 1023px) {
   .wrapper--static {
     width: 288px;
+    
     text-align: left;
   }
   .static-pages h2 {
@@ -1697,7 +1698,15 @@ width: 970px;
   }
 
   .static-pages__text p {
+    width: 288px;
     opacity: 1;
+  }
+  .contacts__user .user-info {
+    padding-left: 0;
+  }
+  .contacts__login-form {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -1707,6 +1716,8 @@ width: 970px;
   }
   .static-pages__text p {
     width: 753px;
+  }
+
 }
 
 .static-pages h2 {
@@ -1757,25 +1768,21 @@ width: 970px;
 
 /*contacts*/
 
-@media (max-width: 1023px) {
-  
-}
-
 @media (min-width: 1024px) {
     .contacts__login-form {
-    width: 637px;
-    height: 332px;
-    margin: 0 auto;
-    margin-top: 50px;
-    border-radius: 8px;
-    background-color: #ffffff;
-    box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.34);
-  }
-  .contacts__user {
-    margin: 0 auto;
-    width: 537px;
-    position: relative;
-  }
+      width: 637px;
+      height: 332px;
+      margin: 0 auto;
+      margin-top: 50px;
+      border-radius: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.34);
+    }
+    .contacts__user {
+      margin: 0 auto;
+      width: 537px;
+      position: relative;
+    }
 }
 
 .contacts__user input {
@@ -1807,9 +1814,7 @@ width: 970px;
 }
 
 .contacts__user-question::before {
-  
   top: 105px;
-  
 }
 
 .contacts__user-question .user-info {
@@ -1817,7 +1822,7 @@ width: 970px;
 }
 
 .contacts__user-question .user-icon {
-  width: 537px;
+  
   text-align: left;
   resize: none;
 }
@@ -1825,11 +1830,35 @@ width: 970px;
 .contacts__button {
   margin: 0 auto;
   width: 300px;
-      margin-top: 47px;
+  margin-top: 47px;
   letter-spacing: normal;
 }
 
+@media (max-width: 1023px) {
+  .contacts__user-question .user-icon {
+    width: 280px;
+  }
+  .contacts__user::before {
+    width: 288px;
+    }
+  textarea.user-icon {
+    height: 40px;
+  }
+  .contacts__button {
+    width: 288px;
+  } 
+}
 
-
+@media (min-width: 1024px) {
+  .contacts__user-question .user-icon {
+    width: 537px;
+  }
+  .contacts__user::before {
+    width: 537px;
+  }
+  .contacts__button {
+    width: 300px;
+  }
+}
 
 
