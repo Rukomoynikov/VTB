@@ -40,7 +40,7 @@
           </div>
         </div>
         <div class="advice__slider">
-          <input class="slider__input" type="radio" name="advice" id="btn-1">
+          <!-- <input class="slider__input" type="radio" name="advice" id="btn-1">
           <input class="slider__input" type="radio" name="advice" id="btn-2">
           <input class="slider__input" type="radio" name="advice" id="btn-3" checked>
           <input class="slider__input" type="radio" name="advice" id="btn-4">
@@ -69,7 +69,52 @@
             <label class="slider__toggle" for="btn-2"></label>
             <label class="slider__toggle" for="btn-3"></label>
             <label class="slider__toggle" for="btn-4"></label>
-          </div>
+          </div> -->
+
+          <!-- слайдер карусель -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <!-- <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="fonts/stylesheet.css"/> -->
+  
+
+  <div class="owl-carousel owl-theme">
+    <div class="card advice__slide"><a href="#"><img src="img/photo-1499012276815-a-80-b-5512-deae.jpg"><h3>Как бороться с вредными соседями</h3></a></div>
+    
+
+    <div class="card advice__slide"><a href="#"><img src="img/photo-1519974719765-e-6559-eac-2575.jpg"><h3>3 приема, чтобы визуально увеличить комнату</h3></a></div>
+    
+
+    <div class="card advice__slide"><a href="#"><img src="img/photo-1499012276815-a-80-b-5512-deae.jpg"></h4><h3>Как бороться с вредными соседями</h3></a></div>
+
+    <div class="card advice__slide"><a href="#"><img src="img/image.jpg"><h3>Как быстро освежить интерьер</h3></a></div>
+
+    <div class="card advice__slide"><a href="#"><img src="img/photo-1519974719765-e-6559-eac-2575.jpg"><h3>3 приема, чтобы визуально увеличить комнату</h3></a></div>
+
+    <div class="card advice__slide"><a href="#"><img src="img/image.jpg"><h3>Как быстро освежить интерьер</h3></a></div>
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+                  autoWidth: !0,
+                  animateOut: !0,
+                  animateIn: !0,
+                  margin: 30,
+                  center: !0,
+                  loop: !0,
+                  dots: !0
+              })
+  });</script>
+
+<!-- конец слайдера карусели -->
+
+
+
+
+
         </div>
       </div>
     </section>

@@ -1365,10 +1365,19 @@ a.personal-cabinet {
   text-decoration: none;
 }
 
+.advice__slide a {
+  text-decoration: none;
+}
+
 .advice__slide {
   width: 360px;
   height: 474px;
+  text-decoration: none;
   opacity: 0.4;
+}
+
+.owl-item.active.center .advice__slide {
+  opacity: 1;
 }
 
 .slider-controls {
