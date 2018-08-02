@@ -36,51 +36,22 @@
             <div class="advice__switches">
               <div>
                 <input class="advice__switch" type="radio" name="switch" id="switch-1" checked>
-                <label class="switch__toggle" for="switch-1">Я планирую делать ремонт</label>
+                <label class="switch__toggle switch__toggle1" for="switch-1">Я планирую делать ремонт</label>
               </div>
               <div>
                 <input class="advice__switch" type="radio" name="switch" id="switch-2">
-                <label class="switch__toggle" for="switch-2">Я хочу сделать свой дом лучше</label>
+                <label class="switch__toggle switch__toggle2" for="switch-2">Я хочу сделать свой дом лучше</label>
               </div>
             </div>
             <div class="advice__slider">
-          <!-- <input class="slider__input" type="radio" name="advice" id="btn-1">
-          <input class="slider__input" type="radio" name="advice" id="btn-2">
-          <input class="slider__input" type="radio" name="advice" id="btn-3" checked>
-          <input class="slider__input" type="radio" name="advice" id="btn-4">
-          <div class="cards__wrapper slide">
-            <div class="card advice__slide"><a href="#">
-              <img src="img/photo-1499012276815-a-80-b-5512-deae.jpg"
-                   srcset="img/photo-1499012276815-a-80-b-5512-deae@2x.jpg 2x,
-                           img/photo-1499012276815-a-80-b-5512-deae@3x.jpg 3x">
-              <h3>Как бороться с вредными соседями</h3></a>
-            </div>
-            <div class="card advice__slide"><a href="#">
-              <img src="img/photo-1519974719765-e-6559-eac-2575.jpg"
-                   srcset="img/photo-1519974719765-e-6559-eac-2575@2x.jpg 2x,
-                           img/photo-1519974719765-e-6559-eac-2575@3x.jpg 3x">
-              <h3>3 приема, чтобы визуально увеличить комнату</h3></a>
-            </div>
-            <div class="card advice__slide"><a href="pages/article.html">
-              <img src="img/image.jpg"
-                   srcset="img/image@2x.jpg 2x,
-                           img/image@3x.jpg 3x">
-              <h3>Как быстро освежить интерьер</h3></a>
-            </div>
-          </div>
-          <div class="advice__toggles slider-controls">
-            <label class="slider__toggle" for="btn-1"></label>
-            <label class="slider__toggle" for="btn-2"></label>
-            <label class="slider__toggle" for="btn-3"></label>
-            <label class="slider__toggle" for="btn-4"></label>
-          </div> -->
-
+          
           <!-- слайдер карусель -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
   
-
+<div class="foto-carousel__first">
   <div class="owl-carousel owl-theme">
+
     <div class="card advice__slide"><a href="#"><img src="img/fast.jpg"
       srcset="img/fast@2x.jpg,
 img/fast@3x.jpg"><h3>Как ускорить ремонт</h3></a></div>
@@ -101,6 +72,38 @@ img/image-copy-2@3x.jpg"><h3>Топ-10 ошибок при планировке 
     <div class="card advice__slide"><a href="#"><img src="img/image-copy-3.jpg"
       srcset="img/image-copy-3@2x.jpg,
 img/image-copy-3@3x.jpg"><h3>Как выбрать стиль интерьера</h3></a></div>
+
+  </div>
+</div>
+
+  <!-- вторая карусель -->
+  
+<div class="foto-carousel__second carousel-hidden">
+  <div class="owl-carousel owl-theme">
+
+    <div class="card advice__slide"><a href="#"><img src="img/fast.jpg"
+      srcset="img/fast@2x.jpg,
+img/fast@3x.jpg"><h3>Как </h3></a></div>
+    
+  <div class="card advice__slide"><a href="#"><img src="img/kitchen.jpg"
+    srcset="img/kitchen@2x.jpg,
+img/kitchen@3x.jpg"><h3>Бюджетный спосо</h3></a></div>
+
+    <div class="card advice__slide"><a href="#"><img src="img/image-copy.jpg"
+      srcset="img/image-copy@2x.jpg,
+img/image-copy@3x.jpg"><h3>Как рассчитать коли</h3></a></div>
+    
+
+    <div class="card advice__slide"><a href="#"><img src="img/image-copy-2.jpg"
+      srcset="img/image-copy-2@2x.jpg,
+img/image-copy-2@3x.jpg"><h3>Топ-10 ошибок пр</h3></a></div>
+
+    <div class="card advice__slide"><a href="#"><img src="img/image-copy-3.jpg"
+      srcset="img/image-copy-3@2x.jpg,
+img/image-copy-3@3x.jpg"><h3>Как выбрать сти</h3></a></div>
+
+  </div>
+
 
   </div>
     
@@ -214,5 +217,7 @@ img/image-copy-3@3x.jpg"><h3>Как выбрать стиль интерьера
       </div>
     </div>
 
+
+  <script src="js/foto-carousel.js"></script>
   </body>
 </html>
