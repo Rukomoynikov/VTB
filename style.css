@@ -30,6 +30,10 @@ body {
   background-color: #ffffff;
 }
 
+input {
+  outline: none;
+}
+
 @media (max-width: 767px) {
   .card img {
     width: 288px;
@@ -1224,7 +1228,7 @@ p.landing-description {
     /*padding-top: 50px;*/
   }
   p.landing-description {
-    width: 234px;
+    width: 170px;
     font-size: 18px;
     line-height: 1.33;
   }
@@ -1375,18 +1379,7 @@ a.personal-cabinet {
 /*slider*/
 
 .advice__slider {
-  position: relative;
-}
-
-.advice__slider input[type=radio] {
-  position: absolute;
-  opacity: 0;
-/*временно*/
-      top: 200px; 
-}
-
-.slide a {
-  text-decoration: none;
+  /*position: relative;*/
 }
 
 .advice__slide a {
@@ -1398,66 +1391,24 @@ a.personal-cabinet {
   height: 474px;
   text-decoration: none;
   opacity: 0.4;
+  transition: all .3s;
+  transform: scale(0.9);
 }
 
 .owl-item.active.center .advice__slide {
   opacity: 1;
+  transform: scale(1);
 }
-
-.slider-controls {
-  position: absolute;
-  left: 47%;
+button.owl-dot,
+button.owl-dot .active {
+  outline: none;
 }
-
-.slider-controls label {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  opacity: 0.1;
-  background-color: #1b1b1b;
-  
-  margin-left: 4px;
-  vertical-align: top;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-#btn-1:checked ~ .slider-controls label[for="btn-1"],
-#btn-2:checked ~ .slider-controls label[for="btn-2"],
-#btn-3:checked ~ .slider-controls label[for="btn-3"],
-#btn-4:checked ~ .slider-controls label[for="btn-4"] {
-  opacity: 1;
-}
-
-
-#btn-1:checked ~ .slide .advice__slide:nth-child(1) {
-  opacity: 1;
-}
-#btn-2:checked ~ .slide .advice__slide:nth-child(2) {
-  /*background-image: url("img/1.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
-  width: 410px;
-  height: 540px;*/
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
-  opacity: 1;
-}
-#btn-3:checked ~ .slide .advice__slide:nth-child(3) {
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
-  opacity: 1;
-}
-#btn-4:checked ~ .slide .advice__slide:nth-child(4) {
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
-  opacity: 1;
-}
-
-/*slider end*/
 
 /*results*/
 
 .results {
-width: 970px;
-    margin: 0 auto;
+  width: 970px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1023px) {
@@ -1481,11 +1432,6 @@ width: 970px;
     justify-content: space-between;
   }
 }
-
-
-
-
-
 
 .feature-small {
   display: flex;
