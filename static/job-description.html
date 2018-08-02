@@ -7,9 +7,7 @@
       <link rel="stylesheet" href="../fonts/stylesheet.css"/>
       <meta name="viewport" content="width=device-width">
   </head>
-  <body style="display: flex;
-  min-height: 100vh;
-  flex-direction: column;">
+  <body>
     <nav class="main-nav main-nav__closed">
       <div class="wrapper--navigation cards__wrapper">
         <ul class="main-nav__header main-nav__items">
@@ -20,10 +18,8 @@
       </div>
     </nav>
 
-<!-- <main style="flex: 1;"> -->
-
     <section class="cards static-pages">
-      <div class="wrapper--navigation" style="flex: 1;">
+      <div class="wrapper--navigation">
         <div class="cards-header wrapper--static">
           <h2>Как я работаю</h2>
           <div class="static-pages__text">
@@ -33,7 +29,7 @@
             <p>А вы в своем профиле всегда сможете перенастроить частоту получения моих сообщений и их тематику в соотвествии с тем, как меняется ваша жизнь и ваши интересы.</p>
           </div>
         </div>
-        <a href="#"><div class="hidden__link helper__button job__button">Активируйте меня</div></a>
+        <a href="../helper/helper-name.html"><div class="hidden__link helper__button job__button">Активируйте меня</div></a>
       </div>
     </section>
 
@@ -57,7 +53,31 @@
       </div>
     </footer>
 
-</main>
+    <nav class="side-menu">
+      <div class="side-menu__body">
+        <div class="side-menu__wrapper">
+          <div class="side-menu__wrapper--navigation">
+            <ul class="side-menu__items list-big__items">
+              <li class="side-menu__item list-big__item"><a href="../profile.html">Профиль</a></li>
+              <li class="side-menu__item list-big__item"><a href="../pages/advices.html">Лента советов</a></li>
+              <li class="side-menu__item list-big__item"><a href="../pages/insurance.html">Страховые продукты</a></li>
+              <li class="side-menu__item side-menu--mail"><a href="#" class="">Написать нам</a></li>
+            </ul>
+          </div>
+          <div class="side-menu__wrapper--navigation list-small">
+            <ul class="side-menu__items list-small__items">
+              <li class="side-menu__item list-small__item"><a href="job-description.html">Как я работаю</a></li>
+              <li class="side-menu__item list-small__item"><a href="#">Вопросы-ответы</a></li>
+              <li class="side-menu__item list-small__item"><a href="contacts.html">Контакты</a></li>
+              <li class="side-menu__item list-small__item"><a href="#">Оферта</a></li>
+              <li class="side-menu__item list-small__item"><a href="#">Лицензионное соглашение</a></li>
+            </ul>
+          </div>
+          <a href="#" class="log-out">Выйти</a>
+        </div>
+      </div>
+    </nav>
+    <script src="../js/popup.js"></script>
 
   </body>
 </html>
