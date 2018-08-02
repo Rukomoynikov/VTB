@@ -8,63 +8,73 @@
       <meta name="viewport" content="width=device-width">
   </head>
   <body>
-    <nav class="main-nav main-nav__closed">
-      <div class="wrapper--navigation cards__wrapper">
-        <ul class="main-nav__header main-nav__items">
-          <li><button class="main-nav__toggle" type="button"><img src="../img/menu.svg" alt="toggle"></button></li>
-          <li><p>Легкая Жизнь</p></li>
-          <li><p></p></li>
-        </ul>
-      </div>
-    </nav>
 
-    <section class="cards static-pages">
-      <div class="wrapper--navigation">
-        <div class="cards-header wrapper--static">
-          <h2>Контакты</h2>
-          <div class="static-pages__text">
-            <p>Начать работу со мной просто: ответьте на несколько вопросов, укажите вашу электронную почту, подтвердите ее и начните получать советы.</p>
-            <p>Я очень хочу вам понравиться! Но пока делаю первые шаги, возможны некоторые неточности. Пожалуйста, сообщите мне о них, используя вот эту форму.</p>
-            <form class="contacts__login-form" action="#" method="post"> 
-              <div class="user contacts__user">
-                <label for="login" class="user-info">Ваше имя</label>
-                <input class="user-icon" id="login" type="text" name="login-name" placeholder="Александр">
-              </div>
-            
-              <div class="user contacts__user">
-                <label for="email" class="user-info">E-mail</label>
-                <input class="user-icon" id="email" type="email" name="email" placeholder="Силин">
-              </div>
-              <div class="user contacts__user contacts__user-question">
-                <label for="message" class="user-info">Ваш вопрос</label>
-                <textarea class="user-icon" id="message" type="text" name="message" placeholder="Добрый день! Меня зовут Александр Силин, у меня не получается использовать ваш сервис каждый день. Что мне делать?"></textarea> 
-              </div>
-              <button class="hidden__link contacts__button" type="submit">Отправить обращение</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="wrapper">
+      <div class="content">
 
-    <footer class="landing-footer">
-      <div class="landing-footer__wrapper">
-        <div>
-          <ul class="landing-footer__contact-info">
-            <li><a href="job-description.html">Как я работаю</a></li>
-            <li><a href="#">Вопросы-ответы</a></li>
-            <li><a href="#">Контакты</a></li>
-            <li><a href="#">Оферта</a></li>
-            <li><a href="license.html">Лицензионное соглашение</a></li>
-          </ul>
-        </div>
-        <div class="landing-footer__copyright">
-            <div class="landing-footer__copyright-link">
-            <p>на платформе</p>
-            <a href="#"><img src="../img/logo-small-yellow.svg" width="90" height="36" alt="LogoTheWAAY"></a>
+        <nav class="main-nav main-nav__closed">
+          <div class="wrapper--navigation cards__wrapper">
+            <ul class="main-nav__header main-nav__items">
+              <li><button class="main-nav__toggle" type="button"><img src="../img/menu.svg" alt="toggle"></button></li>
+              <li><p>Легкая Жизнь</p></li>
+              <li><p></p></li>
+            </ul>
           </div>
-        </div>
+        </nav>
+
+        <section class="cards static-pages">
+          <div class="wrapper--navigation">
+            <div class="cards-header wrapper--static">
+              <h2>Контакты</h2>
+              <div class="static-pages__text">
+                <p>Начать работу со мной просто: ответьте на несколько вопросов, укажите вашу электронную почту, подтвердите ее и начните получать советы.</p>
+                <p>Я очень хочу вам понравиться! Но пока делаю первые шаги, возможны некоторые неточности. Пожалуйста, сообщите мне о них, используя вот эту форму.</p>
+                <form class="contacts__login-form" action="#" method="post"> 
+                  <div class="user contacts__user">
+                    <label for="login" class="user-info">Ваше имя</label>
+                    <input class="user-icon" id="login" type="text" name="login-name" placeholder="Александр">
+                  </div>
+                
+                  <div class="user contacts__user">
+                    <label for="email" class="user-info">E-mail</label>
+                    <input class="user-icon" id="email" type="email" name="email" placeholder="Силин">
+                  </div>
+                  <div class="user contacts__user contacts__user-question">
+                    <label for="message" class="user-info">Ваш вопрос</label>
+                    <textarea class="user-icon" id="message" type="text" name="message" placeholder="Добрый день! Меня зовут Александр Силин, у меня не получается использовать ваш сервис каждый день. Что мне делать?"></textarea> 
+                  </div>
+                  <button class="hidden__link contacts__button" type="submit">Отправить обращение</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
       </div>
-    </footer>
+      <div class="footer">
+
+        <footer class="landing-footer">
+          <div class="landing-footer__wrapper">
+            <div>
+              <ul class="landing-footer__contact-info">
+                <li><a href="job-description.html">Как я работаю</a></li>
+                <li><a href="#">Вопросы-ответы</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Оферта</a></li>
+                <li><a href="license.html">Лицензионное соглашение</a></li>
+              </ul>
+            </div>
+            <div class="landing-footer__copyright">
+                <div class="landing-footer__copyright-link">
+                <p>на платформе</p>
+                <a href="#"><img src="../img/logo-small-yellow.svg" width="90" height="36" alt="LogoTheWAAY"></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+    </div>
 
     <nav class="side-menu">
       <div class="side-menu__body">
