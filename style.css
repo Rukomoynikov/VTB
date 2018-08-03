@@ -1,7 +1,7 @@
-* {
+/** {
   margin: 0;
   padding: 0;
-}
+}*/
 html,
 body {
   height: 100%;
@@ -1395,13 +1395,29 @@ label.switch__toggle {
 }
 
 .advice__slide {
-  width: 360px;
-  height: 474px;
+  /*width: 410px;
+  height: 524px;*/
   text-decoration: none;
   opacity: 0.4;
   transition: all .3s;
   transform: scale(0.9);
 }
+
+/*??*/
+
+/*.owl-item.active.center .advice__slide img {
+  width: 410px;
+  height: 420px;
+}*/
+
+
+/*.owl-carousel .owl-item img {
+  width: 109%;
+  width: 410px;
+  height: 524px;
+  transform: translate(-16px, -5px);
+}*/
+
 
 .owl-item.active.center .advice__slide {
   opacity: 1;
