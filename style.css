@@ -1528,7 +1528,7 @@ button.owl-dot .active {
   width: 22px;
   height: 21px;
   top: 5px;
-  background-image: url("img/invalid-name.png");
+  background-image: url("img/mark.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
