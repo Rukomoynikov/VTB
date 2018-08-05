@@ -1,0 +1,114 @@
+@charset "UTF-8";
+.helper {
+  background-color: #ffffff; }
+
+.helper__header p {
+  margin: 0 auto;
+  padding-top: 14px; }
+
+.helper__header a {
+  text-decoration: none; }
+
+.helper__link {
+  display: flex;
+  font-family: 'FF Meta Pro Med';
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 0;
+  padding-left: 136px;
+  padding-top: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  justify-content: space-between; }
+
+@media (min-width: 1200px) {
+  .helper {
+    padding-top: 50px; }
+  .helper__link {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    background-color: #0a2896; }
+  .helper h2 {
+    text-align: left; } }
+
+.wrapper--helper,
+.wrapper--helper p {
+  width: 260px;
+  text-align: left; }
+
+.helper__button {
+  width: 220px;
+  margin: 25px auto;
+  font-weight: 700; }
+
+.helper__name--input {
+  display: block;
+  width: 280px;
+  margin: 0 auto;
+  padding: 50px 0px 0px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #232323;
+  outline: none;
+  background-color: #ffffff; }
+
+.helper__name--input input {
+  background-color: #ffffff; }
+
+.helper input {
+  border: 0px; }
+
+.helper__switchers input[type=radio] {
+  display: none; }
+
+.helper__border {
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  height: 2px;
+  border-bottom: solid 1px #979797; }
+
+.helper__switchers label {
+  display: block;
+  text-align: center;
+  width: 56px;
+  padding: 16px 0px;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.1px;
+  color: #232323;
+  border-radius: 6px;
+  border: solid 2px rgba(192, 192, 192, 0.3); }
+
+.helper__switchers input[type=radio]:checked + label {
+  border: solid 2px #02ad58; }
+
+.appartmentSelect {
+  margin: auto; }
+
+.radioAsButton__realInput {
+  visibility: hidden;
+  z-index: 1; }
+
+.radioAsButton__asLooking {
+  position: relative;
+  /*центровка блоков*/
+  margin: 0 auto;
+  z-index: 100;
+  padding: 16px;
+  font-size: 14px;
+  color: #232323;
+  max-width: 288px;
+  border-radius: 6px;
+  border: solid 2px rgba(192, 192, 192, 0.3); }
+
+.radioAsButton__realInput:checked + .radioAsButton__asLooking {
+  border-radius: 6px;
+  background-color: #0a2896;
+  border: solid 2px rgba(192, 192, 192, 0.3);
+  color: white; }

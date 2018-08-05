@@ -1,0 +1,83 @@
+.static-pages {
+  background-color: #ffffff;
+}
+
+@media (max-width: 1023px) {
+  .wrapper--static {
+    width: 288px;
+    
+    text-align: left;
+  }
+  .static-pages h2 {
+    font-weight: 500;
+    padding: 43px 0 11px;
+  }
+
+  .static-pages__text p {
+    width: 288px;
+    opacity: 1;
+  }
+  .contacts__user .user-info {
+    padding-left: 0;
+  }
+  .contacts__login-form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper--static {
+    width: 753px;
+  }
+  .static-pages__text p {
+    width: 753px;
+  }
+
+}
+
+.static-pages h2 {
+  text-align: left;
+  font-size: 36px;
+  font-weight: 500;
+  padding: 43px 0 11px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: -0.3px;
+  color: #232323;
+}
+
+.static-pages__text p {
+  margin: 0;
+  opacity: 1;
+  text-align: left;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #232323;
+  padding-bottom: 15px;
+}
+
+.contact-form {
+  color: #062299;
+}
+
+@media (max-width: 1023px) {
+  .job__button {
+    margin: 38px auto;
+
+    /*не работает*/
+    width: 268px; 
+  }
+}
+
+@media (min-width: 1024px) {
+  .job__button {
+    margin: 38px auto;
+    width: 380px;
+  }
+}

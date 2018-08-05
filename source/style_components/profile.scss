@@ -1,0 +1,153 @@
+.profile__body {
+  background-color: #f1f2f4;
+}
+
+.profile {
+  background-color: #f1f2f4;
+  h2 {
+    padding-left: 10px
+  }
+}
+
+.profile__section--wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.profile__frequency,
+.profile__title {
+  padding: 0;
+  color: #232323;
+  font-family: 'FF Meta Pro Med';
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.39;
+  letter-spacing: -0.2px;
+}
+
+.profile__frequency--block {
+  width: 320px;
+  padding-left: 4px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  & li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 8px;
+  }
+  & input[type=checkbox] {
+    display: none;
+  }
+  & label {
+    display: block;
+    text-align: center;
+    width: 56px;
+    padding: 16px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    color: #232323;
+    border-radius: 6px;
+    border: solid 2px rgba(192, 192, 192, 0.3);
+  }
+  & input[type=checkbox]:checked + label{
+    border: solid 2px #02ad58;
+  }
+}
+
+.login-form {
+  width: 320px;
+  background-color: #ffffff;
+}
+
+.user {
+  position: relative;
+  width: 288px;
+  min-height: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile__user::before {
+  content: "";
+  position: absolute;
+  top: 56px;
+  left: 0px;
+  width: 322px;
+  height: 2px;
+  background-color: #f1f2f4;
+}
+
+.user {
+  &-info {
+    width: 65px;
+    text-align: left;
+    padding: 19px;
+    display: inline-flex;
+    font-family: 'FF Meta Pro Med';
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #111111;
+  }
+  &-icon {
+    width: 140px;
+    text-align: right;
+    display: inline-flex;
+    outline: none;
+    border-width: 0px;
+    padding: 0;
+    background-color: #ffffff;
+  }
+}
+
+.icon-password {
+  text-align: left;
+  background-color: #ffffff;
+  & input {
+    width: 60px;
+    margin-left: 22px;
+    border: 0;
+    outline: none;
+    background-color: #ffffff;
+  }
+  & input + label {
+    cursor: pointer;
+  }
+}
+
+.icon-label {
+  padding: 18px 10px 0px 0px;
+  color: #02ad58;
+  font-size: 12px;
+}
+
+.profile__link {
+  width: 266px;
+  margin: 25px auto;
+  &--deactivation {
+    text-decoration: none;
+  }
+  &--deactivation p {
+    padding-top: 15px;
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: #e62632;
+  }
+}
