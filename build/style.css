@@ -1,9 +1,9 @@
 @charset "UTF-8";
-/** {
-  margin: 0;
-  padding: 0;
-}*/
 @import url(fonts/stylesheet.css);
+* {
+  margin: 0;
+  padding: 0; }
+
 html,
 body {
   height: 100%; }
@@ -22,7 +22,6 @@ body {
   width: 100%;
   height: 125px; }
 
-/*//*/
 body {
   margin: 0 auto;
   font-family: 'FF Meta Pro';
@@ -768,6 +767,8 @@ a.intro-button {
 
 .helper {
   background-color: #ffffff; }
+  .helper input {
+    border: 0px; }
 
 .helper__header p {
   margin: 0 auto;
@@ -792,16 +793,18 @@ a.intro-button {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .helper {
     padding-top: 50px; }
-  .helper__link {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 16px;
-    background-color: #0a2896; }
-  .helper h2 {
-    text-align: left; } }
+    .helper h2 {
+      text-align: left; }
+    .helper__link {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 16px;
+      background-color: #0a2896; }
+    .helper__header {
+      width: auto; } }
 
 .wrapper--helper,
 .wrapper--helper p {
@@ -824,15 +827,8 @@ a.intro-button {
   color: #232323;
   outline: none;
   background-color: #ffffff; }
-
-.helper__name--input input {
-  background-color: #ffffff; }
-
-.helper input {
-  border: 0px; }
-
-.helper__switchers input[type=radio] {
-  display: none; }
+  .helper__name--input input {
+    background-color: #ffffff; }
 
 .helper__border {
   display: block;
@@ -856,6 +852,9 @@ a.intro-button {
   border-radius: 6px;
   border: solid 2px rgba(192, 192, 192, 0.3); }
 
+.helper__switchers input[type=radio] {
+  display: none; }
+
 .helper__switchers input[type=radio]:checked + label {
   border: solid 2px #02ad58; }
 
@@ -866,9 +865,14 @@ a.intro-button {
   visibility: hidden;
   z-index: 1; }
 
+.radioAsButton__realInput:checked + .radioAsButton__asLooking {
+  border-radius: 6px;
+  background-color: #0a2896;
+  border: solid 2px rgba(192, 192, 192, 0.3);
+  color: white; }
+
 .radioAsButton__asLooking {
   position: relative;
-  /*центровка блоков*/
   margin: 0 auto;
   z-index: 100;
   padding: 16px;
@@ -877,12 +881,6 @@ a.intro-button {
   max-width: 288px;
   border-radius: 6px;
   border: solid 2px rgba(192, 192, 192, 0.3); }
-
-.radioAsButton__realInput:checked + .radioAsButton__asLooking {
-  border-radius: 6px;
-  background-color: #0a2896;
-  border: solid 2px rgba(192, 192, 192, 0.3);
-  color: white; }
 
 .profile__body {
   background-color: #f1f2f4; }

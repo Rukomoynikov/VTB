@@ -1,14 +1,18 @@
 .helper {
   background-color: #ffffff;
+  input {
+    border: 0px;
+  }
 }
 
-.helper__header p {
-  margin: 0 auto;
-  padding-top: 14px;
-}
-
-.helper__header a {
-  text-decoration: none;
+.helper__header {
+  p {
+    margin: 0 auto;
+    padding-top: 14px;
+  }
+  a {
+    text-decoration: none;
+  }
 }
 
 .helper__link {
@@ -24,18 +28,21 @@
   justify-content: space-between;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .helper {
     padding-top: 50px;
-  }
-  .helper__link {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 16px;
-    background-color: #0a2896;
-  }
-  .helper h2 {
-    text-align: left;
+    h2 {
+      text-align: left;
+    }
+    &__link {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 16px;
+      background-color: #0a2896;
+    }
+    &__header {
+      width: auto;
+    }
   }
 }
 
@@ -62,18 +69,9 @@
   color: #232323;
   outline: none;
   background-color: #ffffff;
-}
-
-.helper__name--input input {
-  background-color: #ffffff;
-}
-
-.helper input {
-  border: 0px;
-}
-
-.helper__switchers input[type=radio] {
-  display: none;
+  input {
+    background-color: #ffffff;
+  }
 }
 
 .helper__border {
@@ -84,24 +82,28 @@
   border-bottom: solid 1px #979797;
 }
 
-.helper__switchers label {
-  display: block;
-  text-align: center;
-  width: 56px;
-  padding: 16px 0px;
-  font-size: 16px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: -0.1px;
-  color: #232323;
-  border-radius: 6px;
-  border: solid 2px rgba(192, 192, 192, 0.3);
-}
-
-.helper__switchers input[type=radio]:checked + label{
-  border: solid 2px #02ad58;
+.helper__switchers {
+  label {
+    display: block;
+    text-align: center;
+    width: 56px;
+    padding: 16px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    color: #232323;
+    border-radius: 6px;
+    border: solid 2px rgba(192, 192, 192, 0.3);
+  }
+  input[type=radio] {
+    display: none;
+  }
+  input[type=radio]:checked + label{
+    border: solid 2px #02ad58;
+  }
 }
 
 .appartmentSelect {
@@ -113,9 +115,15 @@
   z-index: 1;
 }
 
+.radioAsButton__realInput:checked + .radioAsButton__asLooking {
+  border-radius: 6px;
+  background-color: #0a2896;
+  border: solid 2px rgba(192, 192, 192, 0.3);
+  color: white;
+}
+
 .radioAsButton__asLooking {
   position: relative;
-  /*центровка блоков*/
   margin: 0 auto;
   z-index: 100;
   padding: 16px;
@@ -124,11 +132,4 @@
   max-width: 288px;
   border-radius: 6px;
   border: solid 2px rgba(192, 192, 192, 0.3);
-}
-
-.radioAsButton__realInput:checked + .radioAsButton__asLooking {
-  border-radius: 6px;
-  background-color: #0a2896;
-  border: solid 2px rgba(192, 192, 192, 0.3);
-  color: white;
 }
