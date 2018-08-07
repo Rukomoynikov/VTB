@@ -837,11 +837,15 @@ a.remembering-my-password {
 
 @media (max-width: 1023px) {
   .password__text p {
-    width: 288px; } }
+    width: 288px; }
+  .password__contacts__user .user-info {
+    padding-top: 14px; } }
 
 @media (min-width: 1024px) {
   .password__text p {
-    width: 555px; } }
+    width: 555px; }
+  .password__contacts__user .user-info {
+    padding-top: 24px; } }
 
 .main-nav__toggle:hover {
   opacity: 0.4; }

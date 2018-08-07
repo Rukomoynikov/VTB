@@ -2365,6 +2365,13 @@
 		"oAP": "\/build\/password\/password-new.html",
 		"oF": 0
 		},
+	"\/source\/password\/personal-cabinet.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/password\/personal-cabinet.html",
+		"oF": 0
+		},
 	"\/source\/profile.html": {
 		"cB": 0,
 		"ft": 8192,

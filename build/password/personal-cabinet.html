@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personal Cabinet</title>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="../style.css">
+      <link rel="stylesheet" href="../fonts/stylesheet.css"/>
+      <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div class="content">
+
+        <nav class="main-nav main-nav__closed">
+          <div class="wrapper--navigation cards__wrapper">
+            <ul class="main-nav__header main-nav__items">
+              <li><button class="main-nav__toggle" type="button"><img src="../img/menu.svg" alt="toggle"></button></li>
+              <li><p>Легкая Жизнь</p></li>
+              <li><p></p></li>
+            </ul>
+          </div>
+        </nav>
+
+        <section class="cards static-pages">
+          <div class="wrapper--navigation">
+            <div class="cards-header wrapper--static password-header">
+              <h2>Вход в личный кабинет</h2>
+              <div class="static-pages__text">
+                <form class="contacts__login-form password__login-form" action="#" method="post"> 
+                  <div class="user contacts__user password__contacts__user">
+                    <label for="email" class="user-info">E-mail</label>
+                    <input class="user-icon password__user-icon" id="email" type="email" name="email" placeholder="Ваш e-mail">
+                  </div>
+                  <div class="user contacts__user password__contacts__user">
+                    <label for="password" class="user-info">Пароль</label>
+                    <input class="user-icon password__user-icon" id="password" type="password" name="password" placeholder="Пароль">
+                  </div>
+                </form>
+                  <button class="hidden__link contacts__button password__login" type="submit" value="Отправить">Войти</button>
+                </form>
+                <a href="#" class="remembering-my-password"><p>Я не помню пароль</p></a>
+              
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <nav class="side-menu">
+      <div class="side-menu__body">
+        <div class="side-menu__wrapper">
+          <div class="side-menu__wrapper--navigation">
+            <ul class="side-menu__items list-big__items">
+              <li class="side-menu__item list-big__item"><a href="../profile.html">Профиль</a></li>
+              <li class="side-menu__item list-big__item"><a href="../pages/advices.html">Лента советов</a></li>
+              <li class="side-menu__item list-big__item"><a href="../pages/insurance.html">Страховые продукты</a></li>
+              <li class="side-menu__item side-menu--mail"><a href="#" class="">Написать нам</a></li>
+            </ul>
+          </div>
+          <div class="side-menu__wrapper--navigation list-small">
+            <ul class="side-menu__items list-small__items">
+              <li class="side-menu__item list-small__item"><a href="../static/job-description.html">Как я работаю</a></li>
+              <li class="side-menu__item list-small__item"><a href="#">Вопросы-ответы</a></li>
+              <li class="side-menu__item list-small__item"><a href="../static/contacts.html">Контакты</a></li>
+              <li class="side-menu__item list-small__item"><a href="#">Оферта</a></li>
+              <li class="side-menu__item list-small__item"><a href="../static/license.html">Лицензионное соглашение</a></li>
+            </ul>
+          </div>
+          <a href="#" class="log-out">Выйти</a>
+        </div>
+      </div>
+    </nav>
+    <script src="../js/popup.js"></script>
+
+  </body>
+</html>
