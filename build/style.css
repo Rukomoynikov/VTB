@@ -149,8 +149,7 @@ a.intro-button {
   display: block; }
 
 .side-menu__body {
-  background-color: #02283b;
-  height: 1000px; }
+  background-color: #02283b; }
 
 .main-nav-show,
 .cards-show {
@@ -201,8 +200,7 @@ a.intro-button {
   margin: 55px 0 0 0;
   padding-bottom: 25px;
   line-height: 18px;
-  /*opacity: 0.6;*/
-  opacity: 0.8;
+  opacity: 0.6;
   font-size: 12px;
   font-weight: 300;
   font-style: normal;
@@ -218,7 +216,13 @@ a.intro-button {
   left: 50px;
   width: 20px;
   height: 20px;
-  background: url("img/sign-out.svg") no-repeat; }
+  background: url("img/sign-out.svg") no-repeat;
+  opacity: .2;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s; }
+
+.side-menu .log-out:hover::before {
+  opacity: 1; }
 
 @media (max-width: 1023px) {
   .main-nav__header {
@@ -767,6 +771,44 @@ a.intro-button {
   letter-spacing: normal;
   color: #232323; }
 
+.main-nav__toggle:hover {
+  opacity: 0.4; }
+
+.inner-page__menu a:hover {
+  opacity: 0.4; }
+
+.hidden__link:hover,
+.intro-button:hover {
+  background-color: #051758; }
+
+a.personal-cabinet:hover {
+  opacity: 1;
+  color: #0a2896; }
+
+.cards .card:hover {
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 6px 0 #000000;
+          box-shadow: 0 3px 6px 0 #000000; }
+
+.inner-page__button:hover {
+  background-color: #b40f19; }
+
+.inner-page__footer p:hover {
+  opacity: 1;
+  cursor: pointer; }
+
+.landing-footer__contact-info li:hover {
+  opacity: 0.4; }
+
+.side-menu__items.list-big__items li:hover {
+  opacity: 0.4; }
+
+.side-menu__items.list-small__items li:hover {
+  opacity: 0.4; }
+
+.side-menu .log-out:hover {
+  opacity: 1; }
+
 .password__contacts__user {
   margin-top: 17px; }
 
@@ -850,9 +892,40 @@ a.remembering-my-password {
 .main-nav__toggle:hover {
   opacity: 0.4; }
 
-.inner-page__menu
-a:hover {
+.inner-page__menu a:hover {
   opacity: 0.4; }
+
+.hidden__link:hover,
+.intro-button:hover {
+  background-color: #051758; }
+
+a.personal-cabinet:hover {
+  opacity: 1;
+  color: #0a2896; }
+
+.cards .card:hover {
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 6px 0 #000000;
+          box-shadow: 0 3px 6px 0 #000000; }
+
+.inner-page__button:hover {
+  background-color: #b40f19; }
+
+.inner-page__footer p:hover {
+  opacity: 1;
+  cursor: pointer; }
+
+.landing-footer__contact-info li:hover {
+  opacity: 0.4; }
+
+.side-menu__items.list-big__items li:hover {
+  opacity: 0.4; }
+
+.side-menu__items.list-small__items li:hover {
+  opacity: 0.4; }
+
+.side-menu .log-out:hover {
+  opacity: 1; }
 
 .helper {
   background-color: #ffffff; }

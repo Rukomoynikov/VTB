@@ -171,7 +171,7 @@ a.intro-button {
 
 .side-menu__body {
   background-color: #02283b;;
-  height: 1000px;
+  // height: 1000px;
 }
 
 .main-nav-show,
@@ -229,8 +229,8 @@ a.intro-button {
   margin: 55px 0 0 0;
   padding-bottom: 25px;
   line-height: 18px;
-  /*opacity: 0.6;*/
-  opacity: 0.8;
+  opacity: 0.6;
+  // opacity: 0.8;
   font-size: 12px;
   font-weight: 300;
   font-style: normal;
@@ -248,6 +248,12 @@ a.intro-button {
   width: 20px;
   height: 20px;
   background: url('img/sign-out.svg') no-repeat;
+  opacity: .2;
+  transition: opacity .3s;
+}
+
+.side-menu .log-out:hover::before {
+  opacity: 1;
 }
 
 @media (max-width: 1023px) {
@@ -891,6 +897,7 @@ a.intro-button {
   color: #232323;
 }
 
+@import 'style_components/hover';
 @import 'style_components/password';
 @import 'style_components/hover';
 @import 'style_components/helper';

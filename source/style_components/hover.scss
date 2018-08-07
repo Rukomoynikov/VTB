@@ -2,7 +2,47 @@
     opacity: 0.4;
 }
 
-.inner-page__menu 
-  a:hover {
-      opacity: 0.4;
-  }
+.inner-page__menu a:hover {
+  opacity: 0.4;
+}
+
+.hidden__link:hover,
+.intro-button:hover {
+  background-color: #051758;
+}
+
+a.personal-cabinet:hover {
+  opacity: 1;
+  color: #0a2896;
+}
+
+.cards .card:hover {
+  // box-shadow: 0 3px 6px 0 #e8ecf3;
+  border-radius: 6px;
+//   background-color: #ffffff;
+  box-shadow: 0 3px 6px 0 #000000;
+}
+
+.inner-page__button:hover {
+  background-color: #b40f19;
+}
+
+.inner-page__footer p:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.landing-footer__contact-info li:hover {
+  opacity: 0.4;
+}
+.side-menu__items.list-big__items li:hover {
+  opacity: 0.4;
+}
+
+.side-menu__items.list-small__items li:hover {
+  opacity: 0.4;
+}
+
+.side-menu .log-out:hover {
+  opacity: 1;
+}
