@@ -891,6 +891,8 @@ a.intro-button {
   color: #232323;
 }
 
+@import 'style_components/password';
+@import 'style_components/hover';
 @import 'style_components/helper';
 @import 'style_components/profile';
 @import 'style_components/landing';

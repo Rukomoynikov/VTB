@@ -767,6 +767,89 @@ a.intro-button {
   letter-spacing: normal;
   color: #232323; }
 
+.password__contacts__user {
+  margin-top: 17px; }
+
+.password__user-icon {
+  opacity: 0.4;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #111111; }
+
+button.password__login {
+  margin-top: 35px;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal; }
+
+a.remembering-my-password {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0; }
+  a.remembering-my-password p {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    opacity: 0.4;
+    color: #111111;
+    text-align: center; }
+
+@media (max-width: 1023px) {
+  a.remembering-my-password {
+    margin-top: 38px; } }
+
+@media (min-width: 1024px) {
+  .static-pages .password-header h2 {
+    text-align: center;
+    padding-top: 60px; }
+  form.contacts__login-form.password__login-form {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 0;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 0 0; }
+  a.remembering-my-password {
+    margin-top: 28px; } }
+
+.password__text p {
+  opacity: 0.4;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #232323; }
+
+@media (max-width: 1023px) {
+  .password__text p {
+    width: 288px; } }
+
+@media (min-width: 1024px) {
+  .password__text p {
+    width: 555px; } }
+
+.main-nav__toggle:hover {
+  opacity: 0.4; }
+
+.inner-page__menu
+a:hover {
+  opacity: 0.4; }
+
 .helper {
   background-color: #ffffff; }
   .helper input {
