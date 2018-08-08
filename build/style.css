@@ -787,8 +787,8 @@ a.personal-cabinet:hover {
 
 .cards .card:hover {
   border-radius: 6px;
-  -webkit-box-shadow: 0 3px 6px 0 #000000;
-          box-shadow: 0 3px 6px 0 #000000; }
+  -webkit-box-shadow: 0 12px 20px 0 #cecfcf;
+          box-shadow: 0 12px 20px 0 #cecfcf; }
 
 .inner-page__button:hover {
   background-color: #b40f19; }
@@ -905,8 +905,8 @@ a.personal-cabinet:hover {
 
 .cards .card:hover {
   border-radius: 6px;
-  -webkit-box-shadow: 0 3px 6px 0 #000000;
-          box-shadow: 0 3px 6px 0 #000000; }
+  -webkit-box-shadow: 0 12px 20px 0 #cecfcf;
+          box-shadow: 0 12px 20px 0 #cecfcf; }
 
 .inner-page__button:hover {
   background-color: #b40f19; }
