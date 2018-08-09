@@ -2386,6 +2386,13 @@
 		"oAP": "\/build\/static\/contacts.html",
 		"oF": 1
 		},
+	"\/source\/static\/faq.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/static\/faq.html",
+		"oF": 0
+		},
 	"\/source\/static\/job-description.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2399,6 +2406,13 @@
 		"oA": 2,
 		"oAP": "\/build\/static\/license.html",
 		"oF": 1
+		},
+	"\/source\/static\/offer.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/static\/offer.html",
+		"oF": 0
 		},
 	"\/source\/style.scss": {
 		"aP": 1,

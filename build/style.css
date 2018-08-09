@@ -1760,3 +1760,10 @@ button.owl-dot .active {
   .job__button {
     margin: 38px auto;
     width: 380px; } }
+
+.offer__subtitle,
+.offer__list {
+  text-align: left; }
+
+.offer__list {
+  margin-left: 35px; }
