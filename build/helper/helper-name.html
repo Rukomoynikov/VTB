@@ -8,14 +8,24 @@
       <meta name="viewport" content="width=device-width">
 	</head>
 	<body>
-    <nav class="main-nav main-nav__closed">
+    <!-- <nav class="main-nav main-nav__closed">
       <div class="wrapper--navigation">
         <div class="main-nav__header helper__header">
           <p>Легкая Жизнь</p>
           <a href="helper-appartment.html"><span class="helper__link">Далее</span></a>
         </div>
       </div>
+    </nav> -->
+    <nav class="main-nav main-nav__closed">
+      <div class="wrapper--navigation cards__wrapper">
+        <ul class="main-nav__header main-nav__items">
+          <li><button class="main-nav__toggle" type="button"><img src="../img/menu.svg" alt="toggle"></button></li>
+          <li><p>Легкая Жизнь</p></li>
+          <li><p></p></li>
+        </ul>
+      </div>
     </nav>
+
     <section class="cards helper">
       <div class="wrapper--navigation">
         <div class="cards-header wrapper--helper">
@@ -31,5 +41,32 @@
         </div>
       </div>
     </section>
+
+    <nav class="side-menu">
+      <div class="side-menu__body">
+        <div class="side-menu__wrapper">
+          <div class="side-menu__wrapper--navigation">
+            <ul class="side-menu__items list-big__items">
+             <li class="side-menu__item list-big__item"><a href="../profile.html">Профиль</a></li>
+              <li class="side-menu__item list-big__item"><a href="../pages/advices.html">Лента советов</a></li>
+              <li class="side-menu__item list-big__item"><a href="../pages/insurance.html">Страховые продукты</a></li>
+              <li class="side-menu__item side-menu--mail"><a href="#" class="">Написать нам</a></li>
+            </ul>
+          </div>
+          <div class="side-menu__wrapper--navigation list-small">
+            <ul class="side-menu__items list-small__items">
+              <li class="side-menu__item list-small__item"><a href="#">Как я работаю</a></li>
+              <li class="side-menu__item list-small__item"><a href="#">Вопросы-ответы</a></li>
+              <li class="side-menu__item list-small__item"><a href="#">Контакты</a></li>
+              <li class="side-menu__item list-small__item"><a href="#">Оферта</a></li>
+              <li class="side-menu__item list-small__item"><a href="#">Лицензионное соглашение</a></li>
+            </ul>
+          </div>
+          <a href="#" class="log-out">Выйти</a>
+        </div>
+      </div>
+    </nav>
+    <script src="../js/popup.js"></script>
+
   </body>
 </html>
