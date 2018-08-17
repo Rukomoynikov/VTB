@@ -33,7 +33,9 @@ input {
   outline: none; }
 
 @media (max-width: 767px) {
-  .card img {
+  .card__img {
+    background-size: cover;
+    background-position: center center;
     width: 288px;
     height: 300px; }
   .cards {
@@ -42,7 +44,9 @@ input {
 @media (min-width: 768px) {
   .cards {
     padding: 0px 30px; }
-  .card img {
+    .card__img {
+    background-size: cover;
+    background-position: center center;
     width: 360px;
     height: 375px; }
   .card {
@@ -430,7 +434,7 @@ a.intro-button {
     width: 360px;
     min-height: 475px; } }
 
-.card img {
+.card__img {
   margin: 0;
   padding: 0;
   border-radius: 6px 6px 0px 0px; }
