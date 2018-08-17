@@ -139,7 +139,7 @@ a.intro-button {
   top: 0px;
   left: 0px;
   width: 240px;
-  padding-top: 96px;
+  padding-top: 12px;
   padding-left: 16px;
   background-color: #02283b;
   display: none;
@@ -149,6 +149,7 @@ a.intro-button {
   display: block; }
 
 .side-menu__body {
+  padding-top: 100px;
   background-color: #02283b; }
 
 .main-nav-show,
@@ -1361,6 +1362,10 @@ label.switch__toggle {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
   cursor: pointer; }
+
+.foto-carousel__first .owl-carousel .owl-item img {
+  width: auto;
+}
 
 .owl-item.active.center .advice__slide {
   opacity: 1;
