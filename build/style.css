@@ -622,6 +622,16 @@ a.intro-button {
   background-position: bottom center;
   background-repeat: no-repeat; }
 
+.inner-page__gradientOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background: linear-gradient(rgba(0,0,0,0), black);
+}
+
 @media (max-width: 600px) {
   .inner-page__background {
     background-image: url("img/photo-1496180727794-817822-f-65950@3x.jpg"); }
